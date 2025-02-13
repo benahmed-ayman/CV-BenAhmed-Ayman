@@ -4,36 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Ben Ahmed, AYMAN, CV, Devloppeur Web, Designer Web HEPL">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>About AYMAN</title>
 </head>
 <body>
     <header>
         <div itemscope itemtype="https://schema.org/Person">
             <span id="burgeurmenu">
-            <span>
+                <span></span>
 
+                <span></span>
+
+                <span></span>
             </span>
-            <span>
-
-            </span>
-            <span>
-
-            </span>
-        </span>
-
-            <a id="surmonparcourehaut">
-                SUR MON PARCOUR
-            </a>
-            <a id="portefoliohaut">
-                PORTOLIO
-            </a>
-            <a id="formulairehaut">
-                FORMULAIRE DE CONTACT
-            </a>
+                <ul id="lienBurgerMenu">
+                    <li>
+                        <a id="surmonparcourehaut" itemprop="url">
+                            SUR MON PARCOUR
+                        </a>
+                    </li>
+                    <li>
+                        <a id="portefoliohaut" itemprop="url">
+                            PORTOLIO
+                        </a>
+                    </li>
+                    <li>
+                        <a id="formulairehaut" itemprop="url">
+                            FORMULAIRE DE CONTACT
+                        </a>
+                    </li>
+                </ul>
 
             <p id="nomprenomhaut">
-                <span itemprop="givenName"> AYMAN </span> <span itemprop="familyName"> BEN AHMED </span>
+                <span itemprop="givenName">AYMAN</span> <span itemprop="familyName">BEN AHMED</span>
             </p>
             <img id="instableu" src="./img/logo_inst_final.svg" alt="Encien logo instagrame en bleu">
             <img id="facebookbleu"  src="./img/fecebook.svg" alt="Un logo Facebook en bleu">
@@ -68,7 +72,7 @@
                    MOI
                 </span>
             </h2>
-            <!--<img src=""> image de moi avec les lunette rouge-->
+            <img id="imageAyman" src="./img/photo_profil.webp" alt="image de ayman">
             <p>
                 Github: https://github.com/benahmed-ayman
                 email profesionel: <span itemprop="email">ayman.benahmed@student.hepl.be</span>
@@ -101,7 +105,7 @@
             </p>
             <a>MON PORTFOLIO</a>
         </div>
-        <img src="./img/guillemet_debut.svg" alt="grand guillemet ouvrant en gris">
+        <img src="./img/guillemet_debut%20coupé.webp" alt="grand guillemet ouvrant en gris">
         <p id="qualityproduct">
             Produit de qualité, livraison rapide et service client au top ! Je suis très satisfait de ce que <b>Ayman Ben Ahmed</b> ma proposé.
         </p>
@@ -119,18 +123,28 @@
             <p>
                 Suivez moi  sur mes différents pour plus d’info et pour suivre mes future projet de près
             </p>
-            <a>
-                Suivre Ayman sur Instagram
-            </a>
-            <img src="./img/logo_insta_white.svg" alt="encien logo instagrame en blanc">
-            <a>
-                Suivre Ayman sur Facebook
-            </a>
-            <img src="./img/logo_facebook_whithe.svg" alt="logo facebook en blanc">
-            <a>
-                Suivre Ayman sur Twitter
-            </a>
-            <img src="./img/tweeter_logo_white.svg" alt="encien logo de twitter en blanc">
+            <ul>
+                <li>
+                    <a>
+                        Suivre Ayman sur Instagram
+                        <img class="troisLogoBlanc" src="./img/logo_insta_white.svg" alt="encien logo instagrame en blanc">
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        Suivre Ayman sur Facebook
+                        <img class="troisLogoBlanc" src="./img/logo_facebook_whithe.svg" alt="logo facebook en blanc">
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        Suivre Ayman sur Twitter
+                        <img class="troisLogoBlanc" src="./img/tweeter_logo_white.svg" alt="encien logo de twitter en blanc">
+                    </a>
+                </li>
+            </ul>
+
+            <!-- iùage goggin qui coure <img src="" alt=""> -->
         </div>
 
     </main>
@@ -173,3 +187,4 @@
     </footer>
 </body>
 </html>
+
