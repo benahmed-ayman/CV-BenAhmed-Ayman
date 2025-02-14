@@ -1,49 +1,121 @@
 *{
     font-family: Gotham;
-    background-color: #afafff;
+   ;
 }
+
+#lienBurgerMenu{
+    visibility: hidden;
+}
+
+#burgeurmenu{
+
+}
+
+#burgeurmenu span:nth-of-type(1){
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin: 6px 6px 0px 6px ;
+}
+
+#burgeurmenu span:nth-of-type(2){
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin: 3px 6px 3px 6px ;
+}
+
+
+#burgeurmenu span:nth-of-type(3){
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin: 6px 6px 6px 6px ;
+}
+
+
 
 #nomprenomhaut{
     font-family: Bebas Neue,Alegreya Sans,sans Serif;
+    /* de base il y a le font size fait 16 px*/
+    position: absolute;
+    top: 0;
+    left: 15%;
+    right: 15%;
+
+
 
 }
 
 #instableu{
+    width: 50px;
+    position: absolute;
+    top: -10px;
+    left: 20px;
 
 }
 
 #facebookbleu{
+    width: 24.06px;
+    position: absolute;
+    top: 0;
+    left: 15px;
 
 }
 
 #twiterbleu{
+    width: 120px;
+    position: absolute;
+    top: -28.7px;
+    left: 30px;
 
 }
 
 #logoaccesibility{
+    width: 100px;
+    position: sticky;
+    top: -51px;
 
 }
 
+
+/*------------------------header-------------------*/
+
+.troisLogoBlanc{
+    width: 36px;
+    min-height: 32px;
+}
+
+
+
 span{
     font-family: Bebas Neue,Alegreya Sans,sans Serif;
+    /* de base il y a le font size fait 16 px*/
     color: #5f82a9;
 }
 
 #enplus{
     font-family: Helvetica Neue;
+    /* de base il y a le font size fait 16 px*/
     color: #5f82a9;
 }
 
 p{
     font-family: Helvetica Neue;
+    /* de base il y a le font size fait 16 px*/
 }
 
 #qualityproduct{
    font-family: Gotham;
+    /* de base il y a le font size fait 16 px*/
 }
 
 h1{
     font-family: Bebas Neue,Alegreya Sans,sans Serif;
+    /* de base il y a le font size fait 16 px*/
 }
 
 div:nth-of-type(3)>a {
@@ -83,6 +155,12 @@ h3{
     background-color: transparent;
 }
 
+
+#imageAyman{
+    width: 100%;
+    position: absolute;
+}
+
 /*----------------------footer-----------------*/
 footer{
     background-color: black;
@@ -98,6 +176,21 @@ footer{
 
 #formulairebas{
     color: white;
+}
+
+#instableubas{
+    width: 50px;
+
+}
+
+#facebookbleubas{
+    width: 24.06px;
+
+}
+
+#twitterbleubas{
+    width: 120px;
+
 }
 
 #nomprenombas{
