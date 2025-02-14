@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>About AYMAN</title>
 </head>
-<body>
+<body itemscope itemtype="https://schema.org/ProfilePage" >
     <header>
-        <div itemscope itemtype="https://schema.org/Person">
+        <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
             <span id="burgeurmenu">
                 <span></span>
 
@@ -36,7 +36,7 @@
                     </li>
                 </ul>
 
-            <p id="nomprenomhaut">
+            <p id="nomprenomhaut" itemprop="name">
                 <span itemprop="givenName">AYMAN</span> <span itemprop="familyName">BEN AHMED</span>
             </p>
             <img id="instableu" src="./img/logo_inst_final.svg" alt="Encien logo instagrame en bleu">
@@ -65,7 +65,7 @@
                 SUR AYMAN
             </a>
         </div>
-        <div itemscope itemtype="https://schema.org/Person">
+        <div itemprop="email" itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
             <h2>
                 CONTACTEZ<br>
                 <span>
@@ -81,19 +81,21 @@
                 discord: aymanBenahmed
             </p>
         </div>
-                <h3>
-                    PARCOURS SCOLAIRE:
-                </h3>
+        <nav itemprop="school" itemscope itemtype="https://schema.org/Person">
+            <h3>
+                PARCOURS SCOLAIRE:
+            </h3>
 
-                <div itemscope itemtype="https://schema.org/Person">
-                    <img itemprop="image" src="./img/logo_liege_atlas.svg" alt="logo de l'aténnée royale de liege atlas">
-                    <img itemprop="image" src="./img/logo_hepl.svg" alt="logo de la haute école de la vile de Liège">
-                </div>
+            <ul>
+                <li><img itemprop="image" src="./img/logo_liege_atlas.svg" alt="logo de l'aténnée royale de liege atlas"></li>
+                <li><img itemprop="image" src="./img/logo_hepl.svg" alt="logo de la haute école de la vile de Liège"></li>
+            </ul>
 
-                <a id="voirecole">
-                    VOIRE TOUT LES ECOLE »
-                </a>
-        <div itemscope itemtype="https://schema.org/Person">
+            <a id="voirecole">
+                VOIRE TOUT LES ECOLE »
+            </a>
+        </nav>
+        <div itemprop="Compétances" itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
             <h2>
                 MES<br>
                 <span>
@@ -149,7 +151,7 @@
 
     </main>
     <footer>
-        <div itemscope itemtype="https://schema.org/Person">
+        <div itemprop="info" itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
             <a id="surmonparcourebas">
                 <span itemprop="url">SUR MON PARCOURS</span>
             </a>

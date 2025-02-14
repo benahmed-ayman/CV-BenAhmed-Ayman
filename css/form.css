@@ -1,0 +1,54 @@
+html{
+    margin-left: 25px;
+}
+
+span{
+    color: #5F82A9;
+    font-family: Bebas Neue,Alegreya Sans,sans Serif;
+    display: block;
+    font-size: 45px; /* de base 16px*/
+}
+
+h1{
+    font-family: Bebas Neue,Alegreya Sans,sans Serif;
+    font-size: 45px; /* de base 16px*/
+}
+
+input{
+    display: block;
+    border: 1px solid #5F82A9 ;
+    padding: 10px 100px 10px 3px;
+}
+
+label{
+    font-family: Helvetica Neue;
+    font-size: 20px; /* de base 16px*/
+    display: inline-block;
+    margin-top: 50px;
+}
+
+button{
+    display: block;
+    border: #5F82A9;
+}
+
+.asterixRed{
+    font-family: Helvetica Neue;
+    font-size: 20px; /* de base 16px ou je ne suis pas sur mais peut être 45px*/
+    color: red;
+    display: inline;
+}
+
+div input:last-of-type {
+    display: inline;
+}
+
+p{
+    font-family: Helvetica Neue;
+    font-size: 20px; /* de base 16px*/
+
+}
+
+/* tout on 16px de base*/
+
+/* les place holder on 13.3333px de font size*/
