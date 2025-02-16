@@ -10,7 +10,7 @@
 </head>
 <body itemscope itemtype="https://schema.org/ProfilePage" >
 <header>
-    <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
+    <section>
             <span id="burgeurmenu">
                 <span></span>
 
@@ -36,22 +36,23 @@
             </li>
         </ul>
 
-        <p id="nomprenomhaut" itemprop="name">
-            <span itemprop="givenName">AYMAN</span> <span itemprop="familyName">BEN AHMED</span>
+        <p id="nomprenomhaut">
+            AYMAN BEN AHMED
         </p>
         <img id="instableu" src="./img/logo_inst_final.svg" alt="Encien logo instagrame en bleu">
         <img id="facebookbleu"  src="./img/fecebook.svg" alt="Un logo Facebook en bleu">
         <img id="twiterbleu"  src="./img/tweeter_logo.svg" alt="l'encien logo twitter en bleu ">
         <img id="logoaccesibility"  src="./img/bonomme_bleu.svg" alt="Un bonhomme blanc sur fond bleu qui représente l'accesebilité">
-    </div>
+    </section>
 </header>
 <main>
-    <div>
-        <h1>
+    <section itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
+        <img src="img/image_du_haut_webP.webp" alt="image de ayman se tenant droit devant un mure de carrelage.">
+        <h1 itemprop="name">
                 <span>
                     Bienvenue !<br>
                 </span>
-            Je m'appelle  Ayman, je suis  développeur et designer web
+            Je m'appelle <span itemprop="givenName">Ayman</span> , je suis  développeur et designer web
 
         </h1>
         <p>
@@ -64,66 +65,69 @@
         <a id="surayman">
             SUR AYMAN
         </a>
-    </div>
-    <div itemprop="email" itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
+    </section>
+    <nav itemprop="email" itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
+        <img src="img/moi_les_bras_tendue_webP.webp" alt="image de ayman qui s'étire devant son pc portable et son samrtphone tout les deux allumer sur son bureaux">
         <h2>
             CONTACTEZ<br>
             <span>
                    MOI
                 </span>
         </h2>
-        <img id="imageAyman" src="./img/photo_profil.webp" alt="image de ayman">
-        <p>
-            Github: https://github.com/benahmed-ayman
+
+        <p itemprop="name">
+            GitHub: https://github.com/benahmed-ayman
             email profesionel: <span itemprop="email">ayman.benahmed@student.hepl.be</span>
-            numéro de telephone: 0046016896
-            linkedin: benahmedAyman
+            numéro de téléphone: 0046016896
+            linkedin: <span itemprop="familyName">benahmed</span>Ayman
             discord: aymanBenahmed
         </p>
-    </div>
+    </nav>
     <nav itemprop="school" itemscope itemtype="https://schema.org/Person">
         <h3>
             PARCOURS SCOLAIRE:
         </h3>
 
         <ul>
-            <li><img itemprop="image" src="./img/logo_liege_atlas.svg" alt="logo de l'aténnée royale de liege atlas"></li>
-            <li><img itemprop="image" src="./img/logo_hepl.svg" alt="logo de la haute école de la vile de Liège"></li>
+            <li><img id="liege_atlas_gris" itemprop="image" src="./img/logo_liege_atlas.svg" alt="logo de l'aténnée royale de liege atlas en gris"></li>
+            <li><img id="hepl_gris" itemprop="image" src="./img/logo_hepl_gris.svg" alt="logo de la haute école de la vile de Liège en gris"></li>
         </ul>
 
         <a id="voirecole">
             VOIRE TOUT LES ECOLE »
         </a>
     </nav>
-    <div itemprop="Compétances" itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
+    <section itemprop="Compétances" itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
         <h2>
+            <img src="img/moi_de_profile_webP.webp" alt="image de ayman de profile légérement sombre sur un fond noir.">
             MES<br>
             <span>
                     COMPETANCES
                 </span>
         </h2>
         <p>
-            Découvrez tout ce que j’ai pu réaliser durant mon parcoure scolaire a la <span itemprop="worksFor" >HEPL</span> , que ca soit le design web, le développement web ou tout les autre options comment les coures de modélisations et d’animation 3D ou encore le coure de montage vidéo, ou alors les cour design graphique. Tout ca vous allez lz trouver dans mon porte folio.
+            Découvrez tout ce que j’ai pu réaliser durant mon parcoure scolaire a la <span itemprop="worksFor" >HEPL</span> , que ca soit le design web, le développement web ou tous les autre options comment les coures de modélisations et d’animation 3D ou encore le coure de montage vidéo, ou alors les cour design graphique. Tout ca vous allez lz trouver dans mon porte folio.
         </p>
-        <a>MON PORTFOLIO</a>
-    </div>
-    <img src="./img/guillemet_debut%20coupé.webp" alt="grand guillemet ouvrant en gris">
+        <a id="mon_porfolio" >MON PORTFOLIO</a>
+    </section>
+    <img id="guillemet_ouvrant" src="./img/guillemet_debut_svg.svg" alt="grand guillemet ouvrant en gris">
     <p id="qualityproduct">
         Produit de qualité, livraison rapide et service client au top ! Je suis très satisfait de ce que <b>Ayman Ben Ahmed</b> ma proposé.
     </p>
-    <img src="./img/guillemet_fermant.svg" alt="grand guillemet ferment en gris">
+    <img id="guillemet_fermant" src="./img/guillemet_fermant_svg.svg" alt="grand guillemet ferment en gris">
     <cite>
         <b>— Peter Bayrou,</b> Client, Liège, Belgique.
     </cite>
-    <div>
+    <nav>
+        <img id="pc_et_cactus" src="./img/image_duBas_webP.webp" alt="imege d'un macbook acoté d'une petite catus sur un bureau">
         <h2>
             RESEAUX<br>
             <span>
                     SOCIAUX
                 </span>
         </h2>
-        <p>
-            Suivez moi  sur mes différents pour plus d’info et pour suivre mes future projet de près
+        <p id="taille_seize">
+            Suivez moi  sur mes différents pour plus d’info et pour suivre mes future projet de près.
         </p>
         <ul>
             <li>
@@ -145,9 +149,7 @@
                 </a>
             </li>
         </ul>
-
-        <!-- iùage goggin qui coure <img src="" alt=""> -->
-    </div>
+    </nav>
 
 </main>
 <footer>
@@ -167,17 +169,13 @@
             <span itemprop="familyName">BEN AHMED</span>
         </p>
 
-        <span itemprop="image">
-                <img id="profileimage" src="./img/profile.jpg" alt="Photo de BEN AHMED">
-            </span>
-
-        <a href="https://www.instagram.com/tonprofil" itemprop="sameAs">
-            <img id="instableubas" src="./img/logo_inst_final.svg" alt="Ancien logo Instagram en bleu">
+        <a href="https://www.instagram.com" itemprop="sameAs">
+            <img id="instableubas" src="./img/logo_inst_blue.svg" alt="Ancien logo Instagram en bleu">
         </a>
-        <a href="https://www.facebook.com/tonprofil" itemprop="sameAs">
+        <a href="https://www.facebook.com" itemprop="sameAs">
             <img id="facebookbleubas" src="./img/fecebook.svg" alt="Un logo Facebook en bleu">
         </a>
-        <a href="https://twitter.com/tonprofil" itemprop="sameAs">
+        <a href="https://twitter.com" itemprop="sameAs">
             <img id="twitterbleubas" src="./img/tweeter_logo.svg" alt="Ancien logo Twitter en bleu">
         </a>
 

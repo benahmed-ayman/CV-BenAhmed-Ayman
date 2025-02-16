@@ -1,0 +1,265 @@
+*{
+    font-family: Gotham;
+   ;
+}
+img{
+    width: 100%;
+}
+
+#lienBurgerMenu{
+    visibility: hidden;
+}
+
+#burgeurmenu{
+
+}
+
+#burgeurmenu span:nth-of-type(1){
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin: 6px 6px 0px 6px ;
+}
+
+#burgeurmenu span:nth-of-type(2){
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin: 3px 6px 3px 6px ;
+}
+
+
+#burgeurmenu span:nth-of-type(3){
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin: 6px 6px 6px 6px ;
+}
+
+
+
+#nomprenomhaut{
+    font-family: Bebas Neue,Alegreya Sans,sans Serif;
+    /* de base il y a le font size fait 16 px*/
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 15%;
+    right: 15%;
+    font-size: 3em; /* 48/16 */
+
+
+
+}
+
+#guillemet_ouvrant{
+    width: 60px;
+}
+
+#guillemet_fermant{
+    width: 60px;
+}
+
+#instableu{
+    visibility: hidden;
+    width: 50px;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+
+}
+
+#facebookbleu{
+    visibility: hidden;
+    width: 24.06px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+
+}
+
+#twiterbleu{
+    visibility: hidden;
+    width: 120px;
+    position: absolute;
+    top: -28.7px;
+    left: 30px;
+
+}
+
+#logoaccesibility{
+    width: 45px;
+    position: sticky;
+    top: -51px;
+
+}
+
+
+/*------------------------header-------------------*/
+
+.troisLogoBlanc{
+    width: 36px;
+    min-height: 32px;
+}
+
+
+
+span{
+    font-family: Bebas Neue,Alegreya Sans,sans Serif;
+    /* de base il y a le font size fait 16 px*/
+    color: #5f82a9;
+}
+
+#enplus{
+    font-family: Helvetica Neue;
+    /* de base il y a le font size fait 16 px*/
+    color: #5f82a9;
+}
+
+#qualityproduct{
+   font-family: Gotham;
+    font-size: 1em /* 16/16*/
+}
+
+cite{
+    font-size: 1.5em; /* 24/16 */
+}
+
+h1{
+    font-family: Bebas Neue,Alegreya Sans,sans Serif;
+    /* de base il y a le font size fait 16 px*/
+
+    font-size: 2.8125em /* 45/16 */
+}
+
+h2{
+    font-family: Bebas Neue,Alegreya Sans,sans Serif;
+    font-size: 2.8125em; /* 45/16 */
+}
+
+h3{
+    font-family: Bebas Neue,Alegreya Sans,sans Serif;
+    color: #999;
+    font-size:1.1875em;  /* 19/16*/
+}
+
+div:nth-of-type(3)>a {
+    background-color: #5f82a9; /* c le boutton mon portefolio */
+}
+
+div:nth-of-type(2)>p {
+    color: #ffffff; /* github discord...*/
+}
+
+div:nth-of-type(3)>h2 {
+    color: white; /* MES*/
+}
+
+div:nth-of-type(2)>h2 {
+    color: white; /* CONTACTER*/
+}
+
+
+#voirecole{
+    font-family: gotham;
+    color: #999;
+    font-size: 0.9375em; /* 15/16 */
+}
+
+#surmonparcoure{
+    background-color: #5f82a9;
+    color: white;
+}
+
+#surayman{
+    color: white;
+    border: solid white;
+    background-color: transparent;
+}
+
+
+#imageAyman{
+    width: 100%;
+    position: absolute;
+}
+
+liege_atlas_gris{
+    width: 147px;
+}
+
+hepl_gris{
+    width: 291px;
+}
+
+#mon_porfolio{
+
+}
+
+a{
+    font-size: 0.875em; /* 14/16 */
+}
+
+p{
+    font-family: Helvetica Neue;
+   font-size: 1em; /* 18/18 */
+
+}
+
+#taille_seize{
+    font-size: 1em; /* 16/16 */
+}
+
+
+#textedefin{
+    font-size: 13px;  
+    font-weight: lighter;
+}
+
+/*----------------------footer-----------------*/
+footer{
+    background-color: black;
+}
+
+#surmonparcourebas{
+    color: white;
+}
+
+#portefoliobas{
+    color: white;
+}
+
+#formulairebas{
+    color: white;
+}
+
+#instableubas{
+    width: 25px;
+
+}
+
+#facebookbleubas{
+    width: 24.06px;
+
+}
+
+#twitterbleubas{
+    width: 26px;
+
+}
+
+#nomprenombas{
+    font-family: Bebas Neue,Alegreya Sans,sans Serif;
+    color: white;
+}
+
+#textedefin{
+    color: white;
+}
+
+#pc_et_cactus{
+    width: 100%;
+    visibility: hidden;
+}
