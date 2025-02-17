@@ -92,20 +92,34 @@ img{
 
 #logoaccesibility{
     width: 45px;
-    position: sticky;
-    top: -51px;
+    position: fixed;
+    top: 13px;
+    right: 25px;
 
 }
 
 
 /*------------------------header-------------------*/
 
-.troisLogoBlanc{
-    width: 36px;
-    min-height: 32px;
+#Logo_insta_Blanc{
+    width: 36.18px;
+    position: absolute;
+    right: 66px;
+
+
 }
 
+#logo_facebook_Blanc{
+    width: 35px;
+    right: 0px;
+    margin-right: 18px;
+}
 
+#Logo_twitter_Blanc{
+    width: 36px;
+    right: 0px;
+    margin-right: 18px;
+}
 
 span{
     font-family: Bebas Neue,Alegreya Sans,sans Serif;
@@ -171,7 +185,9 @@ div:nth-of-type(2)>h2 {
 
 #surmonparcoure{
     background-color: #5f82a9;
+    display: inline-block;
     color: white;
+    padding: 23px 16px 23px 15px;
 }
 
 #surayman{
@@ -186,16 +202,20 @@ div:nth-of-type(2)>h2 {
     position: absolute;
 }
 
-liege_atlas_gris{
+#liege_atlas_gris{
     width: 147px;
+
 }
 
-hepl_gris{
+#hepl_gris{
     width: 291px;
 }
 
 #mon_porfolio{
-
+    color: white;
+    display: inline-block;
+    background-color: #5F82A9;
+    padding: 22px 106px 21px 89px;
 }
 
 a{
@@ -218,6 +238,25 @@ p{
     font-weight: lighter;
 }
 
+li a {
+    display: inline-block;
+    background-color: #6B6B6B;
+    padding: 22px 223px 21px 25px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+ul li:nth-child(2) a {
+    padding-right: 224px;
+}
+
+ul li:nth-child(3) a {
+    padding-right: 244px;
+}
+
+
+
+
 /*----------------------footer-----------------*/
 footer{
     background-color: black;
@@ -237,17 +276,18 @@ footer{
 
 #instableubas{
     width: 25px;
+    margin: 25px 12px 36px 195px;
 
 }
 
 #facebookbleubas{
     width: 24.06px;
-
+    margin: 26px 12px 36px 0px;
 }
 
 #twitterbleubas{
     width: 26px;
-
+    margin: 27px 198px 37.60px 0px;
 }
 
 #nomprenombas{
