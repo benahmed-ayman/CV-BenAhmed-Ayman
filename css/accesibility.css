@@ -1,3 +1,106 @@
 *{
     font-family: "Metropolis", sans-serif;
 }
+
+
+li:nth-child(1) img {
+    width: 60px;
+}
+
+li:nth-child(2) img {
+    width: 65px;
+}
+
+li:nth-child(3) img {
+    width: 62px;
+}
+
+li:nth-child(4) img {
+    width: 63px;
+}
+
+li:nth-child(5) img {
+    width: 97px;
+}
+
+li:nth-child(6) img {
+    width: 58px;
+}
+
+li:nth-child(7) img {
+    width: 71px;
+}
+
+li:nth-child(8) img {
+    width: 64px;
+}
+
+li:nth-child(9) img {
+    width: 44px;
+}
+
+li:nth-child(10) img {
+    width: 97.59px;
+}
+
+li:nth-child(11) img {
+    width: 95px;
+}
+
+li:nth-child(12) img {
+    width: 68px;
+}
+
+li:nth-child(13) img {
+    width: 76px;
+}
+
+li:nth-child(14) img {
+    width: 59px;
+}
+
+li:nth-child(15) img {
+    width: 68px;
+}
+
+
+
+
+
+#chekone{
+    width: 15px;
+}
+
+#chektwo{
+    width: 15px;
+}
+
+#chekthree{
+    width: 15px;
+}
+
+#chekfoure{
+    width: 15px;
+}
+
+#chekfive{
+    width: 15px;
+}
+
+
+button>img{ /* flèche rafraichisante*/
+    width: 21px;
+}
+
+div>img{  /*gear*/
+    width: 28px;
+}
+
+.fleche_droite{
+    width: 6.41px;
+}
+
+footer img{
+    width: 96px;
+}
+/*logo de la hepl*/
