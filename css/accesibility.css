@@ -1,6 +1,9 @@
 *{
     font-family: "Metropolis", sans-serif;
 }
+html{
+    background-color: #EFF1F5;
+}
 
 
 header img{
@@ -132,6 +135,7 @@ li:nth-child(15) img {
 #chekone{
     width: 15px;
     position: absolute;
+    top: 0px;
 }
 
 #chektwo{
@@ -176,4 +180,9 @@ ul{
     display: grid;
     grid-template-columns: 125px 125px 125px;
     grid-template-rows: 95px 95px 95px 95px 95px;
+}
+
+/* tout les fond*/
+li{
+    background-color: white;
 }

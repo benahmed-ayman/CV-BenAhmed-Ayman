@@ -6,17 +6,18 @@ span{
     color: #5F82A9;
     font-family: Bebas Neue,Alegreya Sans,sans Serif;
     display: block;
-    font-size: 45px; /* de base 16px*/
+
 }
 
 h1{
     font-family: Bebas Neue,Alegreya Sans,sans Serif;
-    font-size: 45px; /* de base 16px*/
+    font-size: 4rem; /* de base 16px*/
+    margin-top: 18px;
 }
 
 input{
     display: block;
-    border: 1px solid #5F82A9 ;
+    border: 3px solid #5F82A9 ;
     padding: 10px 100px 10px 3px;
 }
 
@@ -25,11 +26,20 @@ label{
     font-size: 20px; /* de base 16px*/
     display: inline-block;
     margin-top: 50px;
+    margin-bottom: 12px;
+    font-weight: normal;
 }
 
 button{
+    font-family: Gotham;
     display: block;
-    border: #5F82A9;
+    color: white;
+    background-color: #5F82A9;
+    border-radius: 0px;
+    padding: 23px 37px 23px 37px;
+    margin-top: 60px;
+    margin-bottom: 64px;
+    font-size: 1.275003187507969em; /* 17/13.333 de base 13.3333px*/
 }
 
 .asterixRed{
@@ -52,3 +62,25 @@ p{
 /* tout on 16px de base*/
 
 /* les place holder on 13.3333px de font size*/
+
+#accepter_mail{  /*le carré*/
+    margin-top: 45px;
+    margin-bottom: 0px;
+    border-color: #5F82A9;
+    color: #5F82A9;
+    width: 37px;
+    height: 37px;
+}
+
+label:last-of-type{ /*l'accepte...*/
+    margin-bottom: 0px;
+    translate: 0px -10px 0px;
+}
+
+
+input:not(:last-of-type) { /* tout les input sauf le dernier*/
+
+    min-width: 50%;
+}
+
+
