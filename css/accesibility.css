@@ -1,55 +1,100 @@
 *{
     font-family: "Metropolis", sans-serif;
 }
+
+
 html{
+    margin-left: 20px;
+}
+
+main{
     background-color: #EFF1F5;
 }
 
 
-header img{
+header img{ /* croix blanc*/
     width: 24px;
+    position: fixed;
+    top: 15px;
+    left: 355px;
 }
 
-h1{
+.title{
     /* de base 16px*/
     font-size: 0.9375em; /* 15/16 */
     font-family: "Metropolis", sans-serif;
+    padding: 15px 258px 25px 0px;
+    margin-bottom: 21px;
+    color: white;
 
+
+}
+
+header{
+    background-color: #0048FF;
 }
  /*-------------boutton-------------------*/
 
 
-main section button:first-of-type{ /* francais belgique*/
-    font-size:1.050002625006563em;  /*  14/13.3333 de base font-siez: 13.3333px */
+#francais_belgique{ /* francais belgique*/
+    padding: 15px 0px 15px 0px;
+
 }
 
 
 #profil_etudaiant{
     /* de base font-siez: 13.3333px */
+    border-bottom: #000000;
+    padding: 15px 0px 15px 0px;
+
+
+
 }
 
 main section button:last-of-type{ /* Compétences acquise */
     /* de base font-siez: 13.3333px */
+    padding: 15px 0px 15px 0px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 #rafraichire_les_compétances{ /* comme le p mais en plus global*/
-
+    background-color: #0048FF;
+    border-style: none;
+    border-radius: 9px;
+    display: inline;
 }
 
 p{ /* Rafraichir les compétences acquise */
     font-size:1.050002625006563em;/* de base font-siez: 13.3333px */
+    color: #FFFFFF;
+    padding: 10px 82px 10px 81px;
 }
 
 div button{ /* reglage*/
      /* de base font-siez: 13.3333px */
+    background-color: transparent;
+    border-style: none;
+
 }
 
 footer button:first-of-type{ /* Signaler un problèmes */
     /* de base font-siez: 13.3333px */
+    color: #0048FF;
+    background-color: transparent;
+    border-style: none;
 }
 
 footer button:last-of-type{ /* Gérer */
     /* de base font-siez: 13.3333px */
+    display: block;
+    background-color: #0048FF;
+    color: white;
+    border-radius: 8px;
+    border-style: none;
+    margin-top: 8px;
 }
 
 /*----------------------------------------------*/
@@ -70,7 +115,7 @@ li:nth-child(3) img {
 
 li:nth-child(4) img {
     width: 63px;
-    padding: 16px 31px 16px 31px;
+    padding: 1px 31px 16px 31px;
 }
 
 li:nth-child(5) img {
@@ -80,12 +125,12 @@ li:nth-child(5) img {
 
 li:nth-child(6) img {
     width: 58px;
-    padding:  14px 34px 15px 33px;
+    padding:  1px 34px 15px 33px;
 }
 
 li:nth-child(7) img {
     width: 71px;
-    padding: 12px 27px 12px 27px;
+    padding: 0px 27px 12px 27px;
 }
 
 li:nth-child(8) img {
@@ -100,12 +145,12 @@ li:nth-child(9) img {
 
 li:nth-child(10) img {
     width: 97.59px;
-    padding: 18.62px 11.52px 25.24px 15.88px;
+    padding: 1px 11.52px 25.24px 15.88px;
 }
 
 li:nth-child(11) img {
     width: 95px;
-    padding: 22px 15px 22px 15px;
+    padding: 2px 15px 22px 15px;
 }
 
 li:nth-child(12) img {
@@ -130,42 +175,61 @@ li:nth-child(15) img {
 
 
 
-
-
 #chekone{
     width: 15px;
-    position: absolute;
-    top: 0px;
+   position: relative;
+    top: 8px;
+    left: 8px;
+    padding: 0px;
+
 }
 
 #chektwo{
     width: 15px;
-    position: absolute;
+    padding: 0px;
+    position: relative;
+    top: 8px;
+    left: 8px;
 }
 
 #chekthree{
     width: 15px;
-    position: absolute;
+    padding: 0px;
+    position: relative;
+    top: 8px;
+    left: 8px;
 }
 
 #chekfoure{
     width: 15px;
-    position: absolute;
+    padding: 0px;
+    position: relative;
+    top: 8px;
+    left: 8px;
 }
 
 #chekfive{
     width: 15px;
-    position: absolute;
+    padding: 0px;
+    position: relative;
+    top: 8px;
+    left: 8px;
 }
+
 
 
 button>img{ /* flèche rafraichisante*/
     width: 21px;
+    position: relative;
+    top: 45px;
+    right: 155px;
+
 }
 
 div>img{  /*gear*/
     width: 28px;
 }
+
 
 .fleche_droite{
     width: 6.41px;
@@ -173,16 +237,31 @@ div>img{  /*gear*/
 
 footer img{ /*logo de la hepl*/
     width: 96px;
+    position: relative;
+    top: -52px;
+    left: 300px;
 }
 
 /* tout les images*/
 ul{
     display: grid;
+    gap: 5px;
     grid-template-columns: 125px 125px 125px;
     grid-template-rows: 95px 95px 95px 95px 95px;
+    list-style: none;
 }
 
 /* tout les fond*/
 li{
     background-color: white;
+    border-radius: 9px;
+
+}
+
+section span{
+    display: block;
+}
+
+footer{
+    color: #FFFFFF;
 }
