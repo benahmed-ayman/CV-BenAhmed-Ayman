@@ -2,6 +2,24 @@
     font-family: Gotham;
    ;
 }
+
+#myparcour_top{
+    color: black;
+    margin-right: 10px;
+    font-family: Gotham;
+}
+
+#my_portfolio_top{
+    color: black;
+    margin-right: 10px;
+    font-family: Gotham;
+}
+
+#my_formulaire_top{
+    color: black;
+    font-family: Gotham;
+}
+
 img{
     width: 100%;
 }
@@ -11,7 +29,8 @@ img{
 }
 
 #burgeurmenu{
-
+    display: inline-block;
+    margin-top: 16px;
 }
 
 #burgeurmenu span:nth-of-type(1){
@@ -44,24 +63,19 @@ img{
 #nomprenomhaut{
     font-family: Bebas Neue,Alegreya Sans,sans Serif;
     /* de base il y a le font size fait 16 px*/
+    font-size: 40px;
     color: black;
-    position: absolute;
-    top: 0;
-    left: 15%;
-    right: 15%;
-    font-size: 3em; /* 48/16 */
-
-
-
+    display: flex;
+    justify-content: center; /* Centre tout le texte horizontalement */
+    margin-top: -89px; /* Espace vers le haut */
 }
 
-#guillemet_ouvrant{
-    width: 60px;
+
+#section_my_competances span:nth-child(1){ /*HEPL  dans le text*/
+    color: white;
 }
 
-#guillemet_fermant{
-    width: 60px;
-}
+
 
 #instableu{
     visibility: hidden;
@@ -100,6 +114,66 @@ img{
 
 
 /*------------------------header-------------------*/
+#first_section{
+    display: inline-block;
+    margin-top: 10px;
+    background-image: url("/img/image_of_top_webP.webp");
+    background-position: right center;
+    background-color: blue;
+    background-size: cover;
+    width: 100%;
+    height: 626px;
+
+}
+
+#contactez_moi{
+    display: inline-block;
+    background-image: url("/img/my_outstretched_arm_coupe_webeP.webp");
+    background-position: right center;
+    background-color: blue;
+    background-size: cover;
+    width: 100%;
+    height: 626px;
+}
+
+#section_my_competances{
+    display: inline-block;
+    background-image: url("/img/my_of_profil_webP.webp");
+    background-position: right center;
+    background-color: blue;
+    background-size: cover;
+    height: 821px;
+}
+
+
+
+@media screen and (max-width: 500px){
+    #first_section{
+        background-image: url("/img/image_of_top_coupe_webP.webp");
+        background-position: right center; /* Positionne l'image à droite */
+    }
+
+    #contactez_moi{
+        background-image: url("/img/my_outstretched_arm_jpeg.jpg");
+        background-position: right center; /* Positionne l'image à droite */
+    }
+
+    #reseau_social{
+        background-image: none; /* je ne sait pas pourquoi ca ne fonctione pas**************************/
+    }
+}
+
+
+@media screen and (min-width: 500px){
+    #surmonparcoure{
+        width:265px;
+        padding: 40px;
+    }
+
+    #surayman{
+        width:265px;
+    }
+}
 
 
 span{
@@ -120,30 +194,63 @@ h1 span:nth-of-type(2){  /* ayman du h1*/
 
 #qualityproduct{
    font-family: Gotham;
-    font-size: 1em /* 16/16*/
+    font-size: 1em; /* 16/16*/
+    margin-bottom: 24px;
+    
 }
 
 cite{
     font-size: 1.5em; /* 24/16 */
     color: #6B6B6B;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 67px;
+    display: inline-block;
 }
+
+#guillemet_ouvrant{
+    width: 50px;
+    position: relative;
+    top: 10px;
+}
+
+#guillemet_fermant{
+    width: 50px;
+    position: relative;
+    top: 30px;
+    /* je ne sait pas comment régle ca******************/
+}
+
+
 
 h1{
     font-family: Bebas Neue,Alegreya Sans,sans Serif;
     /* de base il y a le font size fait 16 px*/
-
-    font-size: 2.8125em /* 45/16 */
+    margin-top: 20px;
+    font-size: 2.8125em; /* 45/16 */
+    margin-left: 26px;
 }
 
 h2{
     font-family: Bebas Neue,Alegreya Sans,sans Serif;
     font-size: 2.8125em; /* 45/16 */
+    color: white;
+    margin-left: 26px;
+    margin-top: 64px;
 }
+
+nav h2{ /*le mot réssaux*/
+    color: black;
+}
+
+
 
 h3{
     font-family: Bebas Neue,Alegreya Sans,sans Serif;
     color: #999;
     font-size:1.1875em;  /* 19/16*/
+    text-align: center;
+    margin-top: 40px;
 }
 
 div:nth-of-type(3)>a {
@@ -165,6 +272,7 @@ div:nth-of-type(2)>h2 {
 
 p:nth-of-type(1)>span { /*email dans contactez moi*/
     color: black;
+    margin-left: 26px;
 }
 
 .extention{
@@ -180,6 +288,10 @@ div{ /* la zone ou se trouve la citation et l'avi*/
     font-family: gotham;
     color: #999;
     font-size: 0.9375em; /* 15/16 */
+    text-align: center; /* je ne sait pas purquoi sa ne fonctione pas*/
+    margin-top: 129px;
+    align-content: center;
+    display: block;
 }
 
 #surmonparcoure{
@@ -187,12 +299,21 @@ div{ /* la zone ou se trouve la citation et l'avi*/
     display: inline-block;
     color: white;
     padding: 23px 16px 23px 15px;
+    margin-top: 97px;
+    margin-left: 20%; /* s'ocupé de lataille*/
 }
 
+
 #surayman{
+    display: inline;
     color: white;
     border: solid white;
     background-color: transparent;
+    width: inherit;
+    max-height: 61px;
+    padding: 24px 31px 24px 31px;
+    margin-left: 29px;
+    margin-top: 97px;
 }
 
 
@@ -201,20 +322,37 @@ div{ /* la zone ou se trouve la citation et l'avi*/
     position: absolute;
 }
 
+nav{
+    height: 690px;
+}
+
+
 #liege_atlas_gris{
+    display: block;
     width: 147px;
+   /* margin-top: 40px;*/
+    margin: 40px auto;
+    align-content: center;
+
+
 
 }
 
 #hepl_gris{
     width: 291px;
+    margin-top: 169px;
+    display: block;
+    align-content: center; /* je ne sait pas pourquoi ca ne fonctionne pasx*/
+
 }
 
 #mon_porfolio{
     color: white;
     display: inline-block;
     background-color: #5F82A9;
+
     padding: 22px 106px 21px 89px;
+    margin-left: 40px;
 }
 
 a{
@@ -224,85 +362,123 @@ a{
 p{
     font-family: Helvetica Neue;
    font-size: 1em; /* 18/18 */
+    margin-left: 26px;
+    margin-top: 17px;
+    line-height: 1.56;
 
+}
+
+section p{
+    color: white;
 }
 
 #taille_seize{
     font-size: 1em; /* 16/16 */
+    color: black;
+    margin-bottom: 41px;
 }
 
 
 
-ul li:nth-child(2) a {
-    padding-right: 224px;
-}
 
-ul li:nth-child(3) a {
-    padding-right: 244px;
-}
 
 /*-----------------------reseaux sociaux-------------------*/
-#Logo_insta_Blanc{
-    width: 36.18px;
-    position: absolute;
-    right: 66px;
+
+#reseau_social{
+    background-image: url("/img/bottom_image_webP.webp");
+    background-position: right center;
+    background-color: white;
+    background-size: cover;
+    margin-top: 0px/* je ne sait pas porquoi il prend mm le backround*/;
+}
+
+.resaux_liste a {
+    color: white; /* Couleur du texte */
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between; /* Espacement optimal */
 
 
 }
 
-li a {
-    display: inline-block;
-    background-color: #6B6B6B;
-    padding: 22px 223px 21px 25px;
-    color: white;
-    margin-bottom: 16px;
+.resaux_liste{
+    background: #666; /* Couleur de fond gris */
+    margin: 10px 0; /* Espacement entre les éléments */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between; /* Espacement entre texte et icône */
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+
+#Logo_insta_Blanc{
+    width: 36.18px;
 }
 
 #logo_facebook_Blanc{
     width: 35px;
-    right: 0px;
-    margin-right: 18px;
+
 }
 
 #Logo_twitter_Blanc{
     width: 36px;
-    right: 0px;
-    margin-right: 18px;
 }
 
 
 
 /*----------------------footer-----------------*/
+
 footer{
     background-color: black;
+    display: flex;
 }
 
 #surmonparcourebas{
     color: white;
+    display: block;
+    margin: 60px 161px 17px 162px;
+    text-align: center;
 }
 
 #portefoliobas{
     color: white;
+    display: block;
+    margin: 0px 201px 20px 202px;
+    text-align: center;
 }
 
 #formulairebas{
     color: white;
+    display: block;
+    margin: 0px 133px 0px 133px;
+    text-align: center;
+}
+
+#the_tri_blue_logo_bottom{
+    display: flex;
+    /**************************************************************/
+    justify-content: center;
 }
 
 #instableubas{
     width: 25px;
-    margin: 25px 12px 36px 195px;
-
+    margin-right: 10px;
+    
 }
 
 #facebookbleubas{
     width: 24.06px;
-    margin: 26px 12px 36px 0px;
+    margin-right: 10px;
 }
 
 #twitterbleubas{
     width: 26px;
-    margin: 27px 198px 37.60px 0px;
+
 }
 
 #nomprenombas{
@@ -310,19 +486,19 @@ footer{
     color: white;
 }
 
-#pc_et_cactus{
-    width: 100%;
-    visibility: hidden;
-}
 
 #textedefin{
     color: white;
     font-size: 13px;
     font-weight: lighter;
+    text-align: center;
+    margin-bottom: 56px;
 }
 
 footer div{
+    display: inline-block;
     background-color: black;
+    margin-top: 44px;
 }
 
 footer span{ /* les liens de footer*/

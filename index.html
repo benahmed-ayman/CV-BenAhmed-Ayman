@@ -10,7 +10,7 @@
 </head>
 <body itemscope itemtype="https://schema.org/ProfilePage" >
 <header>
-    <section>
+    <section >
             <span id="burgeurmenu">
                 <span></span>
 
@@ -39,15 +39,23 @@
         <p id="nomprenomhaut">
             AYMAN BEN AHMED
         </p>
+        <a id="myparcour_top">
+            SUR MON PARCOURS
+        </a>
+        <a id="my_portfolio_top">
+            PORTFOLIO
+        </a>
+        <a id="my_formulaire_top">
+            FORMULAIRE DE CONTACT
+        </a>
         <img id="instableu" src="./img/logo_inst_final.svg" alt="Encien logo instagrame en bleu">
         <img id="facebookbleu"  src="./img/fecebook.svg" alt="Un logo Facebook en bleu">
         <img id="twiterbleu"  src="./img/tweeter_logo.svg" alt="l'encien logo twitter en bleu ">
-        <img id="logoaccesibility"  src="./img/bonomme_bleu.svg" alt="Un bonhomme blanc sur fond bleu qui représente l'accesebilité">
+        <a href="./html/accesibity.html"><img id="logoaccesibility"  src="./img/bonomme_bleu.svg" alt="Un bonhomme blanc sur fond bleu qui représente l'accesebilité"></a>
     </section>
 </header>
 <main>
-    <section itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
-        <img src="img/image_of_top_webP.webp" alt="image de ayman se tenant droit devant un mure de carrelage.">
+    <section id="first_section" itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
         <h1 itemprop="name">
                 <span>
                     Bienvenue !<br>
@@ -67,7 +75,6 @@
         </a>
     </section>
     <section id="contactez_moi" itemprop="email" itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
-        <img src="img/my_outstretched_arm_webeP.webp" alt="image de ayman qui s'étire devant son pc portable et son samrtphone tout les deux allumer sur son bureaux">
         <h2>
             CONTACTEZ<br>
             <span>
@@ -85,30 +92,38 @@
             </span>
         </p>
     </section>
-    <nav itemprop="school" itemscope itemtype="https://schema.org/Person">
-        <h3>
-            PARCOURS SCOLAIRE:
-        </h3>
-
+    <nav  itemprop="school" itemscope itemtype="https://schema.org/Person">
         <ul>
-            <li><img id="liege_atlas_gris" itemprop="image" src="./img/logo_liege_atlas.svg" alt="logo de l'aténnée royale de liege atlas en gris"></li>
-            <li><img id="hepl_gris" itemprop="image" src="./img/logo_hepl_gris.svg" alt="logo de la haute école de la vile de Liège en gris"></li>
-        </ul>
+            <li>
+                <h3>
+                    PARCOURS SCOLAIRE:
+                </h3>
+            </li>
+            <li>
+                <img id="liege_atlas_gris" itemprop="image" src="./img/logo_liege_atlas.svg" alt="logo de l'aténnée royale de liege atlas en gris">
 
-        <a id="voirecole">
-            VOIRE TOUT LES ECOLE »
-        </a>
+            </li>
+            <li>
+                <img id="hepl_gris" itemprop="image" src="./img/logo_hepl_gris.svg" alt="logo de la haute école de la vile de Liège en gris">
+
+            </li>
+            <li>
+                <a id="voirecole">
+                    VOIRE TOUT LES ECOLE »
+                </a>
+            </li>
+        </ul>
     </nav>
-    <section itemprop="Compétances" itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
+    <section id="section_my_competances" itemprop="Compétances" itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
         <h2>
-            <img src="img/my_of_profil_webP.webp" alt="image de ayman de profile légérement sombre sur un fond noir.">
+            <!--<img id="third_image" src="img/my_of_profil_webP.webp" alt="image de ayman de profile légérement sombre sur un fond noir."> -->
             MES<br>
             <span>
                     COMPETANCES
                 </span>
         </h2>
         <p>
-            Découvrez tout ce que j’ai pu réaliser durant mon parcoure scolaire a la <span itemprop="worksFor" >HEPL</span> , que ca soit le design web, le développement web ou tous les autre options.
+            Découvrez tout ce que j’ai pu réaliser durant mon parcoure scolaire a la<span itemprop="worksFor" >HEPL</span>, que ca soit le design web, le développement web ou tous les autre options.
             <span class="extention">
                 Comme les coures de modélisations et d’animation 3D ou encore le coure de montage vidéo, ou alors les cour design graphique. Tout ca vous allez le trouver dans mon porte folio.
             </span>
@@ -116,17 +131,19 @@
         <a id="mon_porfolio" >MON PORTFOLIO</a>
     </section>
     <div>
-        <img id="guillemet_ouvrant" src="./img/guillemet_start_svg.svg" alt="grand guillemet ouvrant en gris">
         <p id="qualityproduct">
+        <img id="guillemet_ouvrant" src="./img/guillemet_start_svg.svg" alt="grand guillemet ouvrant en gris">
+
             Produit de qualité, livraison rapide et service client au top ! Je suis très satisfait de ce que <b>Ayman Ben Ahmed</b> ma proposé.
-        </p>
+
         <img id="guillemet_fermant" src="./img/guillemet_end_svg.svg" alt="grand guillemet ferment en gris">
+        </p>
         <cite>
             <b>— Peter Bayrou,</b> Client, Liège, Belgique.
         </cite>
     </div>
-    <nav>
-        <img id="pc_et_cactus" class="extention" src="./img/bottom_image_webP.webp" alt="imege d'un macbook acoté d'une petite catus sur un bureau">
+    <nav id="reseau_social">
+        <!--<img id="pc_et_cactus" class="extention" src="./img/bottom_image_webP.webp" alt="imege d'un macbook acoté d'une petite catus sur un bureau">-->
         <h2>
             RESEAUX<br>
             <span>
@@ -134,22 +151,22 @@
                 </span>
         </h2>
         <p id="taille_seize">
-            Suivez moi  sur mes différents pour plus d’info et pour suivre mes future projet de près.
+            Suivez moi  sur mes différents reseaux sociaux pour plus d’info et pour suivre mes future projet de près.
         </p>
         <ul>
-            <li>
+            <li class="resaux_liste">
                 <a>
                     Suivre Ayman sur Instagram
                     <img id="Logo_insta_Blanc" src="./img/logo_insta_white.svg" alt="encien logo instagrame en blanc">
                 </a>
             </li>
-            <li>
+            <li class="resaux_liste">
                 <a>
                     Suivre Ayman sur Facebook
                     <img id="logo_facebook_Blanc" src="./img/logo_facebook_whithe.svg" alt="logo facebook en blanc">
                 </a>
             </li>
-            <li>
+            <li class="resaux_liste">
                 <a>
                     Suivre Ayman sur Twitter
                     <img id="Logo_twitter_Blanc" src="./img/tweeter_logo_white.svg" alt="encien logo de twitter en blanc">
@@ -176,15 +193,23 @@
             <span itemprop="familyName">BEN AHMED</span>
         </p>
 
-        <a href="https://www.instagram.com" itemprop="sameAs">
-            <img id="instableubas" src="./img/logo_inst_blue.svg" alt="Ancien logo Instagram en bleu">
-        </a>
-        <a href="https://www.facebook.com" itemprop="sameAs">
-            <img id="facebookbleubas" src="./img/fecebook.svg" alt="Un logo Facebook en bleu">
-        </a>
-        <a href="https://twitter.com" itemprop="sameAs">
-            <img id="twitterbleubas" src="./img/tweeter_logo.svg" alt="Ancien logo Twitter en bleu">
-        </a>
+        <ul id="the_tri_blue_logo_bottom">
+            <li>
+                <a href="https://www.instagram.com" itemprop="sameAs">
+                    <img id="instableubas" src="./img/logo_inst_blue.svg" alt="Ancien logo Instagram en bleu">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com" itemprop="sameAs">
+                    <img id="facebookbleubas" src="./img/fecebook.svg" alt="Un logo Facebook en bleu">
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com" itemprop="sameAs">
+                    <img id="twitterbleubas" src="./img/tweeter_logo.svg" alt="Ancien logo Twitter en bleu">
+                </a>
+            </li>
+        </ul>
 
         <p id="textedefin">
             © 2025 BEN AHMED AYMAN, LLC, All Rights Reserved. | Privacy Policy | Terms and Conditions | Accessibility Statement
