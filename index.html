@@ -6,6 +6,7 @@
     <meta name="keywords" content="Ben Ahmed, AYMAN, CV, Devloppeur Web, Designer Web HEPL">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script defer type="module" src="./js/script.js" ></script>
     <title>About AYMAN</title>
 </head>
 <body itemscope itemtype="https://schema.org/ProfilePage" >
@@ -20,17 +21,17 @@
             </span>
         <ul id="lienBurgerMenu">
             <li>
-                <a id="surmonparcourehaut" itemprop="url">
+                <a id="surmonparcourehaut" href="#" itemprop="url">
                     SUR MON PARCOUR
                 </a>
             </li>
             <li>
-                <a id="portefoliohaut" itemprop="url">
+                <a id="portefoliohaut" href="#" itemprop="url">
                     PORTOLIO
                 </a>
             </li>
             <li>
-                <a id="formulairehaut" itemprop="url">
+                <a id="formulairehaut" href="#" itemprop="url">
                     FORMULAIRE DE CONTACT
                 </a>
             </li>
@@ -39,18 +40,36 @@
         <p id="nomprenomhaut">
             AYMAN BEN AHMED
         </p>
-        <a id="myparcour_top">
-            SUR MON PARCOURS
-        </a>
-        <a id="my_portfolio_top">
-            PORTFOLIO
-        </a>
-        <a id="my_formulaire_top">
-            FORMULAIRE DE CONTACT
-        </a>
-        <img id="instableu" src="./img/logo_inst_final.svg" alt="Encien logo instagrame en bleu">
-        <img id="facebookbleu"  src="./img/fecebook.svg" alt="Un logo Facebook en bleu">
-        <img id="twiterbleu"  src="./img/tweeter_logo.svg" alt="l'encien logo twitter en bleu ">
+        <div id="the_tri_top_links">
+            <a id="myparcour_top">
+                SUR MON PARCOURS
+            </a>
+            <a id="my_portfolio_top">
+                PORTFOLIO
+            </a>
+            <a id="my_formulaire_top">
+                FORMULAIRE DE CONTACT
+            </a>
+        </div>
+
+        <ul id="the_tri_top_logo">
+            <li>
+                <a href="https://www.instagram.com" itemprop="sameAs">
+                    <img id="instableu" src="./img/logo_inst_blue.svg" alt="Encien logo instagrame en bleu">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com" itemprop="sameAs">
+                    <img id="facebookbleu"  src="./img/fecebook.svg" alt="Un logo Facebook en bleu">
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com" itemprop="sameAs">
+                    <img id="twiterbleu"  src="./img/tweeter_logo.svg" alt="l'encien logo twitter en bleu ">
+                </a>
+            </li>
+        </ul>
+
         <a href="./html/accesibity.html"><img id="logoaccesibility"  src="./img/bonomme_bleu.svg" alt="Un bonhomme blanc sur fond bleu qui représente l'accesebilité"></a>
     </section>
 </header>
@@ -60,21 +79,28 @@
                 <span>
                     Bienvenue !<br>
                 </span>
-            Je m'appelle <span itemprop="givenName">Ayman</span> , je suis  développeur et designer web
+            Je m'appelle <span itemprop="givenName">Ayman</span>,<br>  je suis  développeur et designer web
 
         </h1>
         <p>
             Explorez mon portfolio pour découvrir mes projets!
             <span id="enplus">Et plus.</span>
         </p>
-        <a id="surmonparcoure">
-            SUR MON PARCOUR
-        </a>
-        <a id="surayman">
-            SUR AYMAN
-        </a>
+        <ul id="sur_mon_parcourand_ayman">
+            <li>
+                <a id="surmonparcoure">
+                    SUR MON PARCOUR
+                </a>
+
+            </li>
+            <li>
+                <a id="surayman">
+                    SUR AYMAN
+                </a>
+            </li>
+        </ul>
     </section>
-    <section id="contactez_moi" itemprop="email" itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
+    <section id="contactez_moi" itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">  <!--w3c a dit que c'est faux  itemprop="email"-->
         <h2>
             CONTACTEZ<br>
             <span>
@@ -84,7 +110,7 @@
 
         <p itemprop="name">
             GitHub: https://github.com/benahmed-ayman <br>
-            email profesionel: <span itemprop="email">ayman.benahmed@student.hepl.be</span> <br>
+            email profesionel: <span id="mail" itemprop="email">ayman.benahmed@student.hepl.be</span> <br>
             numéro de téléphone: 0046016896 <br>
             <span class="extention">
                 linkedin: benahmed Ayman <br>
@@ -93,18 +119,19 @@
         </p>
     </section>
     <nav  itemprop="school" itemscope itemtype="https://schema.org/Person">
-        <ul>
+        <ul id="middle_images">
             <li>
                 <h3>
                     PARCOURS SCOLAIRE:
                 </h3>
             </li>
+
             <li>
                 <img id="liege_atlas_gris" itemprop="image" src="./img/logo_liege_atlas.svg" alt="logo de l'aténnée royale de liege atlas en gris">
 
             </li>
             <li>
-                <img id="hepl_gris" itemprop="image" src="./img/logo_hepl_gris.svg" alt="logo de la haute école de la vile de Liège en gris">
+                <img id="hepl_gris" itemprop="image" src="./img/logo_hepl_gris.svg" alt="logo de la haute école de la vile de Liège en gris" >
 
             </li>
             <li>
@@ -123,7 +150,7 @@
                 </span>
         </h2>
         <p>
-            Découvrez tout ce que j’ai pu réaliser durant mon parcoure scolaire a la<span itemprop="worksFor" >HEPL</span>, que ca soit le design web, le développement web ou tous les autre options.
+            Découvrez tout ce que j’ai pu réaliser durant mon parcoure scolaire a la <span id="HEPL" itemprop="worksFor" >HEPL</span>, que ca soit le design web, le développement web ou tous les autre options.
             <span class="extention">
                 Comme les coures de modélisations et d’animation 3D ou encore le coure de montage vidéo, ou alors les cour design graphique. Tout ca vous allez le trouver dans mon porte folio.
             </span>
@@ -178,15 +205,25 @@
 </main>
 <footer>
     <div itemprop="info" itemprop="mainEntity" itemscope itemtype="https://schema.org/Person">
-        <a id="surmonparcourebas">
-            <span itemprop="url">SUR MON PARCOURS</span>
-        </a>
-        <a id="portefoliobas">
-            <span itemprop="url">PORTFOLIO</span>
-        </a>
-        <a id="formulairebas">
-            <span itemprop="url">FORMULAIRE DE CONTACT</span>
-        </a>
+        <ul id="tri_links_bottom">
+            <li>
+                <a id="surmonparcourebas">
+                    <span itemprop="url">SUR MON PARCOURS</span>
+                </a>
+
+            </li>
+            <li>
+                <a id="portefoliobas">
+                    <span itemprop="url">PORTFOLIO</span>
+                </a>
+
+            </li>
+            <li>
+                <a id="formulairebas">
+                    <span itemprop="url">FORMULAIRE DE CONTACT</span>
+                </a>
+            </li>
+        </ul>
 
         <p id="nomprenombas">
             <span itemprop="givenName">AYMAN</span>
@@ -215,7 +252,6 @@
             © 2025 BEN AHMED AYMAN, LLC, All Rights Reserved. | Privacy Policy | Terms and Conditions | Accessibility Statement
         </p>
     </div>
-
 </footer>
 </body>
 </html>
