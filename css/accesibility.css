@@ -1,14 +1,29 @@
 *{
     font-family: "Metropolis", sans-serif;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
 
 html{
-    margin-left: 20px;
+
+
+}
+
+body{
+    width: 430px;
+    margin-right: 0px;
+    height: 100%;
+}
+
+header{
+    background-color: #0048FF;
 }
 
 main{
-    background-color: #EFF1F5;
+    background-color: #edeff3;
+    display: inline-block;
+    width: 430px;
 }
 
 
@@ -16,7 +31,7 @@ header img{ /* croix blanc*/
     width: 24px;
     position: fixed;
     top: 15px;
-    left: 355px;
+    left: 395px;
 }
 
 .title{
@@ -24,53 +39,120 @@ header img{ /* croix blanc*/
     font-size: 0.9375em; /* 15/16 */
     font-family: "Metropolis", sans-serif;
     padding: 15px 258px 25px 0px;
-    margin-bottom: 21px;
+    margin-bottom: 5px;
     color: white;
-
-
+    margin-left: 20px;
+    display: inline-block;
 }
 
-header{
-    background-color: #0048FF;
-}
+
  /*-------------boutton-------------------*/
-
-
-#francais_belgique{ /* francais belgique*/
-    padding: 15px 0px 15px 0px;
+#francais_belgique{
+    display: flex;
+    align-items: center; /* Centre verticalement */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    margin-right: 25px;
+    margin-left: 20px;
+    background-color: transparent;
+    margin-top: 3px;
 
 }
-
 
 #profil_etudaiant{
-    /* de base font-siez: 13.3333px */
-    border-bottom: #000000;
-    padding: 15px 0px 15px 0px;
-
-
-
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    margin-right: 25px;
+    margin-left: 20px;
+    background-color: transparent;
 }
 
-main section button:last-of-type{ /* Compétences acquise */
-    /* de base font-siez: 13.3333px */
+#ce{
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    margin-right: 25px;
+    margin-left: 20px;
+    background-color: transparent;
+    margin-bottom: 25px;
+}
+
+#be{
+    width: 31px;
+    margin-left: 20px;
+    padding-left: 0px;
+}
+
+#bonhomenoire{
+    width: 28px;
+    margin-left: 20px;
+    padding-left: 0px;
+}
+
+#ce img{
+    width: 22px;
+    margin-left: 20px;
+    padding-left: 0px;
+}
+
+#francais_belgique button{ /* francais belgique*/
+    margin-left: 20px;
     padding: 15px 0px 15px 0px;
     background-color: transparent;
     border-top: none;
     border-left: none;
     border-right: none;
+    border-bottom: none;
+}
+
+
+#profil_etudaiant button{
+    /* de base font-siez: 13.3333px */
+    margin-left: 20px;
+    padding: 15px 0px 15px 0px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.competances_aquise{
+    margin-left: 20px;
+    padding: 15px 0px 15px 0px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+main section button:last-of-type{ /* Compétences acquise */
+    /* de base font-siez: 13.3333px */
+
 }
 
 #rafraichire_les_compétances{ /* comme le p mais en plus global*/
     background-color: #0048FF;
     border-style: none;
     border-radius: 9px;
-    display: inline;
+    width: 401px;
+    height: 34px;
+    margin-left: 14px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+
+
 }
 
-p{ /* Rafraichir les compétences acquise */
+#refresh{ /* Rafraichir les compétences acquise */
     font-size:1.050002625006563em;/* de base font-siez: 13.3333px */
     color: #FFFFFF;
-    padding: 10px 82px 10px 81px;
+    text-decoration: none;
+
+
+
 }
 
 div button{ /* reglage*/
@@ -85,6 +167,8 @@ footer button:first-of-type{ /* Signaler un problèmes */
     color: #0048FF;
     background-color: transparent;
     border-style: none;
+    margin-left: 20px;
+    margin-top: 12px;
 }
 
 footer button:last-of-type{ /* Gérer */
@@ -95,25 +179,33 @@ footer button:last-of-type{ /* Gérer */
     border-radius: 8px;
     border-style: none;
     margin-top: 8px;
+    margin-left: 20px;
 }
 
 /*----------------------------------------------*/
-li:nth-child(1) img {
-    width: 60px;
+#francais_belgique img:nth-of-type(2){
+    width: 6.41px;
+    margin-left: 8px;
+}
+
+
+
+
+
+.logos li:nth-child(1) img {
     padding: 14px 33px 14px 32px;
 }
 
-li:nth-child(2) img {
-    width: 65px;
+.logos li:nth-child(2) img {
     padding: 2px 30px 1px 30px;
 }
 
-li:nth-child(3) img {
+.logos li:nth-child(3) img {
     width: 62px;
     padding: 12px 32px 13px 31px;
 }
 
-li:nth-child(4) img {
+.logos li:nth-child(4) img {
     width: 63px;
     padding: 1px 31px 16px 31px;
 }
@@ -221,34 +313,43 @@ li:nth-child(15) img {
 button>img{ /* flèche rafraichisante*/
     width: 21px;
     position: relative;
-    top: 45px;
-    right: 155px;
+    top: 2px;
+    right: 54px
 
 }
 
 div>img{  /*gear*/
     width: 28px;
+    margin-left: 20px;
+    margin-right: 12px;
 }
 
+.zone_reglage{
+    display: flex;
+    vertical-align: center;
+    margin-bottom: 25px;
+}
 
 .fleche_droite{
     width: 6.41px;
+    margin-left: 8px;
 }
 
 footer img{ /*logo de la hepl*/
     width: 96px;
     position: relative;
-    top: -52px;
-    left: 300px;
+    top: -33px;
+    left: 318px;
 }
 
 /* tout les images*/
-ul{
+.logos{
     display: grid;
     gap: 5px;
     grid-template-columns: 125px 125px 125px;
     grid-template-rows: 95px 95px 95px 95px 95px;
     list-style: none;
+    margin-left: 20px;
 }
 
 /* tout les fond*/

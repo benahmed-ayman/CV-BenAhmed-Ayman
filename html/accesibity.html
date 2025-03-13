@@ -5,6 +5,7 @@
     <meta name="keywords" content="Ben Ahmed, AYMAN, CV, Devloppeur Web, Designer Web HEPL">
     <link rel="stylesheet" href="../css/accesibility.css">
     <link rel="stylesheet" href="../css/reset.css">
+
     <title>Accessibilité</title>
 </head>
 <body>
@@ -15,19 +16,24 @@
         <a href="../index.html"><img src="../img/white_cross_on_dark_blue.svg" alt="image d'une croix blanc sur fond bleu foncé"></a>
     </header>
     <main>
-        <section>
-            <span id="francais_belgique">
-                <button>Français (Belgique)</button>
-            <img class="fleche_droite" src="../img/arrow_right.svg" alt="logo d'une flèche qui pointe vert la droite">
-            </span>
-            <span>
-                <button id="profil_etudaiant">Profil étudiant</button>
-            <img class="fleche_droite" src="../img/arrow_right.svg" alt="logo d'une flèche qui pointe vert la droite">
-            </span>
-            <button>Compétences acquise</button>
-        </section>
-
         <ul>
+            <li id="francais_belgique">
+                <img id="be" src="../img/langue_be.svg">
+                <button >Français (Belgique)</button>
+                <img id="fleche_droite" src="../img/arrow_right.svg" alt="logo d'une flèche qui pointe vert la droite">
+            </li>
+            <li id="profil_etudaiant">
+                <img id="bonhomenoire"  src="../img/bonomme_black_accesibility.svg">
+                <button >Profil étudiant</button>
+                <img class="fleche_droite" src="../img/arrow_right.svg" alt="logo d'une flèche qui pointe vert la droite">
+            </li>
+            <li id="ce">
+                <img   src="../img/CA.svg">
+                <button class="competances_aquise">Compétences acquise</button>
+            </li>
+        </ul>
+
+        <ul class="logos">
             <li><img src="../img/logo_c.svg" alt="logo de du language C"></li>
             <li><img src="../img/logo_Csharp.svg" alt="logo de du language C sharp"></li>
             <li><img src="../img/logo_c++.svg" alt="logo de du language c++"></li>
@@ -55,11 +61,9 @@
 
         <button id="rafraichire_les_compétances">
             <img src="../img/arrow_refresh.svg" alt="logo de deux flêche qui rafraichies">
-            <p>
-                Rafraichir les compétences acquise
-            </p>
+            <a id="refresh" href="#">Rafraichir les compétences acquise</a>
         </button>
-        <div>
+        <div class="zone_reglage">
             <img src="../img/gear.svg" alt="logo d'un engrenage">
             <button>
                 Réglages

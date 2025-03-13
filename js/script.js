@@ -21,23 +21,3 @@ hepl_gris.addEventListener('mouseout', () => {
 });
 
 
-
-
-
-/*
-
-aussi faire en sorte que les logo defile
-
-const image = document.getElementById("changeableImage");
-const imageSrcDefault = "https://via.placeholder.com/300x200";
-const imageSrcHover = "https://via.placeholder.com/300x200/ff0000/ffffff";
-
-image.addEventListener("mouseover", () => {
-    image.src = imageSrcHover;
-});
-
-image.addEventListener("mouseout", () => {
-    image.src = imageSrcDefault;
-});
-
-*/
