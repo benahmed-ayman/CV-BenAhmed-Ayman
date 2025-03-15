@@ -21,3 +21,10 @@ hepl_gris.addEventListener('mouseout', () => {
 });
 
 
+/*-------------------------------accesibilité---------------------------------*/
+
+
+document.getElementById("logoaccesibility").addEventListener("click", function() {
+    document.getElementById("accesibilité").style.visibility = "visible";
+});
+
