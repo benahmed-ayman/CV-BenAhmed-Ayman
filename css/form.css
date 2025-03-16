@@ -30,9 +30,10 @@ label{
     font-weight: normal;
 }
 
-button{
+a{
     font-family: Gotham;
-    display: block;
+    text-decoration: none;
+    display: inline-block;
     color: white;
     background-color: #5F82A9;
     border-radius: 0px;
@@ -40,6 +41,14 @@ button{
     margin-top: 60px;
     margin-bottom: 64px;
     font-size: 1.275003187507969em; /* 17/13.333 de base 13.3333px*/
+}
+
+
+
+a:nth-of-type(2) {
+   background-color: #999999;
+    display: inline;
+    margin-left: 30px;
 }
 
 .asterixRed{
