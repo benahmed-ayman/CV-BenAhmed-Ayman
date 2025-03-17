@@ -4,7 +4,7 @@
 }
 
 /*-------------------------------------accesibilité--------------------------------------------------------*/
-#accesibilité{
+.accesibilité{
     visibility: hidden;
     position: fixed;
     right: 0;
@@ -24,18 +24,18 @@
 
 
 
-#header{
+.header{
     background-color: #0048FF;
 }
 
-#mid{
+.mid{
     background-color: #edeff3;
     display: inline-block;
     width: 430px;
 }
 
 
-#header img{ /* croix blanc*/
+.header img{ /* croix blanc*/
     width: 24px;
     position: fixed;
     top: 15px;
@@ -55,7 +55,7 @@
 
 
 /*-------------boutton-------------------*/
-#francais_belgique{
+.francais_belgique{
     display: flex;
     align-items: center; /* Centre verticalement */
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
@@ -67,7 +67,7 @@
 
 }
 
-#profil_etudaiant{
+.profil_etudaiant{
     display: flex;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 0px;
@@ -76,7 +76,7 @@
     background-color: transparent;
 }
 
-#ce{
+.ce{
     display: flex;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 0px;
@@ -86,25 +86,25 @@
     margin-bottom: 25px;
 }
 
-#be{
+.be{
     width: 31px;
     margin-left: 20px;
     padding-left: 0px;
 }
 
-#bonhomenoire{
+.bonhomenoire{
     width: 28px;
     margin-left: 20px;
     padding-left: 0px;
 }
 
-#ce img{
+.ce img{
     width: 22px;
     margin-left: 20px;
     padding-left: 0px;
 }
 
-#francais_belgique button{ /* francais belgique*/
+.francais_belgique button{ /* francais belgique*/
     margin-left: 20px;
     padding: 15px 0px 15px 0px;
     background-color: transparent;
@@ -115,7 +115,7 @@
 }
 
 
-#profil_etudaiant button{
+.profil_etudaiant button{
     /* de base font-siez: 13.3333px */
     margin-left: 20px;
     padding: 15px 0px 15px 0px;
@@ -136,12 +136,12 @@
     border-bottom: none;
 }
 
-#mid section button:last-of-type{ /* Compétences acquise */
+.mid section button:last-of-type{ /* Compétences acquise */
     /* de base font-siez: 13.3333px */
 
 }
 
-#rafraichire_les_compétances{ /* comme le button mais en plus global*/
+.rafraichire_les_compétances{ /* comme le button mais en plus global*/
     background-color: #0048FF;
     border-style: none;
     border-radius: 9px;
@@ -153,7 +153,7 @@
 }
 
 
-#rafraichire_les_compétances img{ /* flèche rafraichisante*/
+.rafraichire_les_compétances img{ /* flèche rafraichisante*/
     width: 21px;
     position: relative;
     top: 2px;
@@ -162,7 +162,7 @@
 }
 
 
-#refresh{ /* Rafraichir les compétences acquise */
+.refresh{ /* Rafraichir les compétences acquise */
     font-size:1.050002625006563em;/* de base font-siez: 13.3333px */
     color: #FFFFFF;
     text-decoration: none;
@@ -178,7 +178,7 @@
 
 }
 
-#footer button:first-of-type{ /* Signaler un problèmes */
+.footer button:first-of-type{ /* Signaler un problèmes */
     /* de base font-siez: 13.3333px */
     color: #0048FF;
     background-color: transparent;
@@ -187,7 +187,7 @@
     margin-top: 12px;
 }
 
-#footer button:last-of-type{ /* Gérer */
+.footer button:last-of-type{ /* Gérer */
     /* de base font-siez: 13.3333px */
     display: block;
     background-color: #0048FF;
@@ -199,7 +199,7 @@
 }
 
 /*----------------------------------------------*/
-#francais_belgique img:nth-of-type(2){
+.francais_belgique img:nth-of-type(2){
     width: 6.41px;
     margin-left: 8px;
 }
@@ -223,7 +223,7 @@
     padding: 12px 32px 13px 31px;
 }
 
-.logos li:nth-child(4) img {
+.css_icon{
     width: 63px;
     padding: 1px 31px 16px 31px;
 }
@@ -233,12 +233,12 @@
     padding: 29px 14px 30px 14px;
 }
 
-.logos li:nth-child(6) img {
+.html_icon{
     width: 58px;
     padding:  1px 34px 15px 33px;
 }
 
-.logos li:nth-child(7) img {
+.js_icon{
     width: 71px;
     padding: 0px 27px 12px 27px;
 }
@@ -253,12 +253,12 @@
     padding: 6px 41px 6px 40px;
 }
 
-.logos li:nth-child(10) img {
+.my_sql.icon{
     width: 97.59px;
     padding: 1px 11.52px 25.24px 15.88px;
 }
 
-.logos li:nth-child(11) img {
+.php_icon{
     width: 95px;
     padding: 2px 15px 22px 15px;
 }
@@ -285,7 +285,7 @@
 
 
 
-#chekone{
+.chekone{
     width: 15px;
     position: relative;
     top: 5px;
@@ -294,7 +294,7 @@
 
 }
 
-#chektwo{
+.chektwo{
     width: 15px;
     padding: 0px;
     position: relative;
@@ -302,7 +302,7 @@
     left: -50px;
 }
 
-#chekthree{
+.chekthree{
     width: 15px;
     padding: 0px;
     position: relative;
@@ -310,7 +310,7 @@
     left: -50px;
 }
 
-#chekfoure{
+.chekfoure{
     width: 15px;
     padding: 0px;
     position: relative;
@@ -318,7 +318,7 @@
     left: -50px;
 }
 
-#chekfive{
+.chekfive{
     width: 15px;
     padding: 0px;
     position: relative;
@@ -344,7 +344,7 @@ div>img{  /*gear*/
     margin-left: 8px;
 }
 
-#footer img{ /*logo de la hepl*/
+.footer img{ /*logo de la hepl*/
     width: 96px;
     position: relative;
     top: -33px;
@@ -367,12 +367,8 @@ div>img{  /*gear*/
     border-radius: 9px;
 
 }
-/*
-section span{
-    display: block;
-}*/
 
-#footer{
+.footer{
     background-color: white;
 }
 
@@ -382,26 +378,26 @@ section span{
 /*---------------------------------------------------------------------------------------------------------*/
 
 
-#the_tri_top_links{
+.the_tri_top_links{
     background-color: transparent;
     text-align: center;
 }
 
-#myparcour_top{
+.myparcour_top{
     color: black;
     margin-right: 10px;
     font-family: Gotham;
     display: inline-block;
 }
 
-#my_portfolio_top{
+.my_portfolio_top{
     color: black;
     margin-right: 10px;
     font-family: Gotham;
     display: inline-block;
 }
 
-#my_formulaire_top{
+.my_formulaire_top{
     color: black;
     font-family: Gotham;
     display: inline-block;
@@ -414,35 +410,35 @@ img{
     width: 100%;
 }
 
-#lienBurgerMenu{
+.lienBurgerMenu{
     visibility: hidden;
 }
 
-#burgeurmenu{
+.burgeurmenu{
     display: inline-block;
     margin-top: 16px;
     margin-left: 10px;
     border: none;
 }
 
-#burgeurmenu span:nth-of-type(1){
+.burgeurmenu span:nth-of-type(1){
     display: block;
     width: 34px;
-    height: 3px;
+    height: 3.5px;
     background-color: black;
     margin: 6px 6px 1px 6px ;
 }
 
-#burgeurmenu span:nth-of-type(2){
+.burgeurmenu span:nth-of-type(2){
     display: block;
     width: 34px;
-    height: 3px;
+    height: 3.5px;
     background-color: black;
     margin: 3px 6px 3px 6px ;
 }
 
 
-#burgeurmenu span:nth-of-type(3){
+.burgeurmenu span:nth-of-type(3){
     display: block;
     width: 34px;
     height: 3px;
@@ -452,7 +448,7 @@ img{
 
 
 
-#nomprenomhaut{
+.nomprenomhaut{
     font-family: Bebas Neue,Alegreya Sans,sans Serif;
     /* de base il y a le font size fait 16 px*/
     font-size: 40px;
@@ -463,22 +459,22 @@ img{
 }
 
 
-#section_my_competances span:nth-child(1){ /*HEPL  dans le text*/
+.section_my_competances span:nth-child(1){ /*HEPL  dans le text*/
     color: white;
 }
 
-#the_tri_top_logo{
+.the_tri_top_logo{
     background-color: transparent;
     margin-top: 20px;
     display: flex;
     justify-content: center;
 }
 
-#the_tri_top_logo li {
+.the_tri_top_logo li {
     margin: 5px;
 }
 
-#instableu{
+.instableu{
     width: 25px;
     top: -10px;
     left: 20px;
@@ -486,7 +482,7 @@ img{
 
 }
 
-#facebookbleu{
+.facebookbleu{
     width: 24.06px;
     top: 0;
     left: 15px;
@@ -494,14 +490,14 @@ img{
 
 }
 
-#twiterbleu{
+.twiterbleu{
     width: 26px;
     top: -28.7px;
     left: 30px;
     display: inline-block;
 }
 
-#logoaccesibility{
+.logoaccesibility{
     width: 45px;
     position: fixed;
     top: 10px;
@@ -513,9 +509,9 @@ img{
 
 
 /*------------------------header-------------------*/
-#first_section{
+.first_section{
     display: inline-block;
-    background-image: url("/img/image_of_top_webP.webp");
+    background-image: url("/img/image_of_top_jpeG.jpg");
     background-position: right center;
     background-color: blue;
     background-size: cover;
@@ -524,9 +520,9 @@ img{
 
 }
 
-#contactez_moi{
+.contactez_moi{
     display: inline-block;
-    background-image: url("/img/my_outstretched_arm_coupe_webeP.webp");
+    background-image: url("/img/my_outstretched_arm_jpeg.jpg");
     background-position: right center;
     background-color: blue;
     background-size: cover;
@@ -534,9 +530,9 @@ img{
     height: 626px;
 }
 
-#section_my_competances{
+.section_my_competances{
     display: inline-block;
-    background-image: url("/img/my_of_profil_webP.webp");
+    background-image: url("/img/my_of_profil_Jpeg.jpg");
     background-position: right center;
     background-color: blue;
     background-size: cover;
@@ -547,30 +543,30 @@ img{
 
 
 
-@media screen and (max-width: 500px){ /*plus petit que 500*/
-    #first_section{
-        background-image: url("/img/image_of_top_coupe_webP.webp");
+@media screen and (max-width: 600px){ /*plus petit que 600*/
+    .first_section{
+        background-image: url("/img/image_of_top_coupe_jpeg.jpg");
         background-position: right center; /* Positionne l'image à droite */
     }
 
-    #contactez_moi{
+    .contactez_moi{
         background-image: url("/img/my_outstretched_arm_jpeg.jpg");
         background-position: right center; /* Positionne l'image à droite */
     }
 
-    #reseau_social{
+    .reseau_social{
         background-image: none; /* je ne sait pas pourquoi ca ne fonctione pas**************************/
     }
 
-    #surmonparcoure{
+    .surmonparcoure{
         padding-left: 200px;
     }
 
-    #the_tri_top_links{
+    .the_tri_top_links{
         visibility: hidden;
     }
 
-    #the_tri_top_logo{
+    .the_tri_top_logo{
         visibility: hidden;
     }
 
@@ -586,36 +582,36 @@ img{
 
 
 @media screen and (min-width: 500px){  /*plus grand que 500*/
-    #surmonparcoure{
+    .surmonparcoure{
         width: 200px;
         display: flex;
         text-align: center;
 
     }
 
-    #surayman{
+    .surayman{
         width: 200px;
         display: flex;
         text-align: center;
     }
 
-    #burgeurmenu{
+    .burgeurmenu{
         visibility: hidden;
     }
 
-    #mon_porfolio{
+    .mon_porfolio{
         margin-top: 30px;
     }
 
-    #contactez_moi .extention{
+    .contactez_moi .extention{
         color: gray; /* je l'ai mis pour qu'on le vois bien*/
     }
 
-    #contactez_moi p{
+    .contactez_moi p{
         color: gray; /* je l'ai mis pour qu'on le vois bien*/
     }
 
-    #sur_mon_parcourand_ayman{
+    .sur_mon_parcourand_ayman{
         position: absolute;
         left: 26px;
     }
@@ -623,12 +619,12 @@ img{
 }
 
 @media screen and (min-width: 1100px){  /* car avec le blanc on voyez rien*/
-    #reseau_social p{
+    .reseau_social p{
         color: #5F82A9;
     }
 }
 
-#mail{
+.mail{
     color: inherit;
     margin-left: 0px;
     font-family: "Helvetica Neue";
@@ -636,7 +632,7 @@ img{
 
 
 
-#HEPL{
+.HEPL{
     margin-left: 0px;
     font-family: "Helvetica Neue";
 }
@@ -651,7 +647,7 @@ h1 span:nth-of-type(2){  /* ayman du h1*/
     color: black;
 }
 
-#enplus{
+.enplus{
     font-family: Helvetica Neue;
     /* de base il y a le font size fait 16 px*/
     color: black; /* de base il est bleu mais je l'ai mis en noire pour qu'on le voi bien*/
@@ -659,7 +655,7 @@ h1 span:nth-of-type(2){  /* ayman du h1*/
     margin-left: 0px;
 }
 
-#qualityproduct{
+.qualityproduct{
    font-family: Gotham;
     font-size: 1em; /* 16/16*/
     margin-bottom: 24px;
@@ -680,24 +676,24 @@ cite{
     text-align: inherit;
 }
 
-#guillemet_ouvrant{
+.guillemet_ouvrant{
     width: 50px;
     position: relative;
     top: 10px;
 }
 
-#guillemet_fermant{
+.guillemet_fermant{
     width: 50px;
     position: relative;
     top: 30px;
     /* je ne sait pas comment régle ca******************/
 }
 
-#section_my_competances p{
+.section_my_competances p{
     margin-right: 50px;
 }
 
-#reseau_social p{
+.reseau_social p{
     margin-right: 50px;
 }
 
@@ -725,13 +721,28 @@ nav h2{ /*le mot réssaux*/
 }
 
 
-
 h3{
     font-family: Bebas Neue,Alegreya Sans,sans Serif;
     color: #999;
     font-size:1.1875em;  /* 19/16*/
     text-align: center;
     margin-top: 40px;
+}
+
+.liege_atlas_gris{
+    display: flex;
+    width: 147px;
+    margin: 40px auto;
+}
+
+
+
+.hepl_gris{
+    display: flex;
+    width: 291px;
+    margin-top: 169px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 div:nth-of-type(3)>a {
@@ -751,7 +762,7 @@ div:nth-of-type(2)>h2 {
 }
 
 
-#first_section p{
+.first_section p{
     margin-right: 238px;
 }
 
@@ -770,7 +781,7 @@ div{ /* la zone ou se trouve la citation et l'avi*/
     width: 100%;
 }
 
-#voirecole{
+.voirecole{
     font-family: gotham;
     color: #999;
     font-size: 0.9375em; /* 15/16 */
@@ -781,7 +792,7 @@ div{ /* la zone ou se trouve la citation et l'avi*/
 }
 
 
-#sur_mon_parcourand_ayman{
+.sur_mon_parcourand_ayman{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -789,12 +800,12 @@ div{ /* la zone ou se trouve la citation et l'avi*/
 
 }
 
-#sur_mon_parcourand_ayman a{
+.sur_mon_parcourand_ayman a{
     display: inline-block;
 
 }
 
-#surmonparcoure{
+.surmonparcoure{
     background-color: #5f82a9;
     color: white;
     padding: 23px 16px 23px 15px;
@@ -803,7 +814,7 @@ div{ /* la zone ou se trouve la citation et l'avi*/
 }
 
 
-#surayman{
+.surayman{
     color: white;
     border: solid white;
     background-color: transparent;
@@ -813,7 +824,7 @@ div{ /* la zone ou se trouve la citation et l'avi*/
 }
 
 
-#imageAyman{
+.imageAyman{
     width: 100%;
     position: absolute;
 }
@@ -822,29 +833,11 @@ nav{
     height: 690px;
 }
 
-#middle_images{
+.middle_images{
     text-align: center;
 }
 
-#liege_atlas_gris{
-    display: inline-block;
-    width: 147px;
-    margin: 40px auto;
-}
-
-
-
-#hepl_gris{
-    width: 291px;
-    margin-top: 169px;
-    display: inline-block;
-}
-
-
-
-
-
-#mon_porfolio{
+.mon_porfolio{
     color: white;
     display: inline-block;
     background-color: #5F82A9;
@@ -870,7 +863,7 @@ section p{
     color: white;
 }
 
-#taille_seize{
+.taille_seize{
     font-size: 1em; /* 16/16 */
     color: white; /* je l'ai mis en blanc pour que ca se voi bien*/
     margin-bottom: 41px;
@@ -882,8 +875,8 @@ section p{
 
 /*-----------------------reseaux sociaux-------------------*/
 
-#reseau_social{
-    background-image: url("/img/bottom_image_webP.webp");
+.reseau_social{
+    background-image: url("/img/bottom_image_jpeG.jpg");
     background-position: right center;
     background-color: white;
     background-size: cover;
@@ -916,16 +909,16 @@ section p{
 
 
 
-#Logo_insta_Blanc{
+.Logo_insta_Blanc{
     width: 36.18px;
 }
 
-#logo_facebook_Blanc{
+.logo_facebook_Blanc{
     width: 35px;
 
 }
 
-#Logo_twitter_Blanc{
+.Logo_twitter_Blanc{
     width: 36px;
 }
 
@@ -939,44 +932,44 @@ footer{
     width: 100%;
 }
 
-#surmonparcourebas span{
+.surmonparcourebas span{
     display: inline-block;
 }
 
-#portefoliobas{
+.portefoliobas{
     margin-top: 17px;
     display: inline-block;
 }
 
-#formulairebas span{
+.formulairebas span{
     margin-top: 17px;
     display: inline-block;
 }
 
-#the_tri_blue_logo_bottom{
+.the_tri_blue_logo_bottom{
     display: flex;
     justify-content: center;
 }
 
-#facebookbleubas{
+.facebookbleubas{
     width: 24.06px;
     margin-right: 10px;
 }
 
-#twitterbleubas{
+.twitterbleubas{
     width: 29px;
     margin-right: 10px;
 
 
 }
 
-#instableubas{
+.instableubas{
     width: 26px;
     margin-right: 10px;
 }
 
 
-#nomprenombas{
+.nomprenombas{
     color: white;
     margin-top: 159px;
     margin-bottom: 26px;
@@ -987,11 +980,11 @@ footer{
 }
 
 
-#textedefin{
+.textedefin{
     color: white;
     font-size: 13px;
     margin-bottom: 56px;
-
+    margin-right: 20px;
 }
 
 footer div{

@@ -51,6 +51,15 @@ a:nth-of-type(2) {
     margin-left: 30px;
 }
 
+@media screen and (max-width: 600px) {
+    a:nth-of-type(2) {
+        display: inline-block;
+        position: relative;
+        bottom: 70px;
+        right: 30px;
+    }
+}
+
 .asterixRed{
     font-family: Helvetica Neue;
     font-size: 20px; /* de base 16px ou je ne suis pas sur mais peut être 45px*/

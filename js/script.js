@@ -1,5 +1,5 @@
-const liegeatlas_gris =document.getElementById('liege_atlas_gris');
-const hepl_gris =document.getElementById('hepl_gris')
+const liegeatlas_gris =document.querySelector('.liege_atlas_gris');
+const hepl_gris =document.querySelector('.hepl_gris')
 
 liegeatlas_gris.addEventListener('mouseenter', () => {
     liegeatlas_gris.src='./img/liege_atlas_color.svg';
@@ -24,7 +24,8 @@ hepl_gris.addEventListener('mouseout', () => {
 /*-------------------------------accesibilité---------------------------------*/
 
 
-document.getElementById("logoaccesibility").addEventListener("click", function() {
-    document.getElementById("accesibilité").style.visibility = "visible";
+document.querySelector(".logoaccesibility").addEventListener("click", function() {
+    document.querySelector(".accesibilité").style.visibility = "visible";
 });
+
 
