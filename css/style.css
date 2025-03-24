@@ -500,7 +500,7 @@ img{
 .logoaccesibility{
     width: 45px;
     position: fixed;
-    top: 10px;
+    top: 25px;
     right: 25px;
 
 }
@@ -616,13 +616,63 @@ img{
         left: 26px;
     }
 
+
 }
+
+@media screen and (min-width: 750px){
+    .mclassdle_images li:nth-child(2),
+    .mclassdle_images li:nth-child(3) {
+        display: inline-flex; /* Met les deux éléments sur la même ligne */
+        align-items: center; /* Alignement vertical */
+        width: 45%; /* Ajustez la largeur en fonction de l'espace disponible */
+        margin-bottom: 0px;
+        text-align: center;
+    }
+}
+
 
 @media screen and (min-width: 1100px){  /* car avec le blanc on voyez rien*/
     .reseau_social p{
         color: #5F82A9;
     }
 }
+
+@media screen and (min-width: 1000px) {  /*plus grand que 500*/
+    .title{
+        font-size: inherit!important;
+        margin-right: 100px !important;
+    }
+
+    h1{
+        font-size: 5.5625em !important; /*89/16*/
+        margin-right: 324px !important;
+    }
+
+    h2{
+        font-size: 4.388888888888889em !important; /*79/18*/
+    }
+
+    .section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  /* Aligne verticalement avec le logo bleu */
+        padding: 10px 20px;
+    }
+
+   .the_tri_top_logo{
+       margin-top: 0px;
+       margin-right: 68px;
+   }
+   .nomprenomhaut{
+       display: flex;
+       top: 110px;
+       position: fixed;
+       margin-left: 11px;
+   }
+
+
+}
+
 
 .mail{
     color: inherit;
@@ -733,6 +783,7 @@ h3{
     display: flex;
     width: 147px;
     margin: 40px auto;
+    margin-top: 90px;
 }
 
 
@@ -744,6 +795,7 @@ h3{
     margin-right: auto;
     margin-left: auto;
 }
+
 
 div:nth-of-type(3)>a {
     background-color: #5f82a9; /* c le boutton mon portefolio */
