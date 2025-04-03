@@ -666,7 +666,7 @@ img{
    .nomprenomhaut{
        display: flex;
        top: 110px;
-       position: fixed;
+       position: absolute;
        margin-left: 11px;
    }
 
@@ -784,6 +784,8 @@ h3{
     width: 147px;
     margin: 40px auto;
     margin-top: 90px;
+
+    animation: slider 10s linear infinite;
 }
 
 
@@ -1050,3 +1052,9 @@ footer span{ /* les liens de footer*/
     font-family: Gotham;
     font-size: 1em;
 }/* de base 16    16/16 */
+
+
+
+.follower{
+    position: absolute;
+}
