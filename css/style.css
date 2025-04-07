@@ -15,14 +15,11 @@
     margin-right: 0px;
 }
 
-
 *{
     font-family: "Metropolis", sans-serif;
     margin-left: 0px;
     margin-top: 0px;
 }
-
-
 
 .header{
     background-color: #0048FF;
@@ -114,7 +111,6 @@
     border-bottom: none;
 }
 
-
 .profil_etudaiant button{
     /* de base font-siez: 13.3333px */
     margin-left: 20px;
@@ -152,23 +148,17 @@
     margin-bottom: 28px;
 }
 
-
 .rafraichire_les_compétances img{ /* flèche rafraichisante*/
     width: 21px;
     position: relative;
     top: 2px;
     right: 54px
-
 }
-
 
 .refresh{ /* Rafraichir les compétences acquise */
     font-size:1.050002625006563em;/* de base font-siez: 13.3333px */
     color: #FFFFFF;
     text-decoration: none;
-
-
-
 }
 
 .zone_reglage button{ /* reglage*/
@@ -203,10 +193,6 @@
     width: 6.41px;
     margin-left: 8px;
 }
-
-
-
-
 
 .logos li:nth-child(1) img {
     padding: 14px 33px 14px 32px;
@@ -372,9 +358,6 @@ div>img{  /*gear*/
     background-color: white;
 }
 
-
-
-
 /*---------------------------------------------------------------------------------------------------------*/
 
 
@@ -402,9 +385,6 @@ div>img{  /*gear*/
     font-family: Gotham;
     display: inline-block;
 }
-
-
-
 
 img{
     width: 100%;
@@ -446,8 +426,6 @@ img{
     margin: 4px 6px 6px 6px ;
 }
 
-
-
 .nomprenomhaut{
     font-family: Bebas Neue,Alegreya Sans,sans Serif;
     /* de base il y a le font size fait 16 px*/
@@ -457,7 +435,6 @@ img{
     justify-content: center; /* Centre tout le texte horizontalement */
     margin-top: -89px; /* Espace vers le haut */
 }
-
 
 .section_my_competances span:nth-child(1){ /*HEPL  dans le text*/
     color: white;
@@ -500,14 +477,10 @@ img{
 .logoaccesibility{
     width: 45px;
     position: fixed;
-    top: 25px;
+    top: 11px;
     right: 25px;
 
 }
-
-
-
-
 /*------------------------header-------------------*/
 .first_section{
     display: inline-block;
@@ -538,10 +511,6 @@ img{
     background-size: cover;
     height: 821px;
 }
-
-
-
-
 
 @media screen and (max-width: 600px){ /*plus petit que 600*/
     .first_section{
@@ -670,17 +639,18 @@ img{
        margin-left: 11px;
    }
 
+   .logoaccesibility{
+       position: fixed ;
+       top: 24px;
+   }
 
 }
-
 
 .mail{
     color: inherit;
     margin-left: 0px;
     font-family: "Helvetica Neue";
 }
-
-
 
 .HEPL{
     margin-left: 0px;
@@ -770,7 +740,6 @@ nav h2{ /*le mot réssaux*/
     color: black;
 }
 
-
 h3{
     font-family: Bebas Neue,Alegreya Sans,sans Serif;
     color: #999;
@@ -788,8 +757,6 @@ h3{
     animation: slider 10s linear infinite;
 }
 
-
-
 .hepl_gris{
     display: flex;
     width: 291px;
@@ -797,7 +764,6 @@ h3{
     margin-right: auto;
     margin-left: auto;
 }
-
 
 div:nth-of-type(3)>a {
     background-color: #5f82a9; /* c le boutton mon portefolio */
@@ -923,10 +889,6 @@ section p{
     margin-bottom: 41px;
 }
 
-
-
-
-
 /*-----------------------reseaux sociaux-------------------*/
 
 .reseau_social{
@@ -946,8 +908,6 @@ section p{
     align-items: center;
     width: 100%;
     justify-content: space-between; /* Espacement optimal */
-
-
 }
 
 .resaux_liste{
@@ -961,8 +921,6 @@ section p{
     margin-left: 20px;
 }
 
-
-
 .Logo_insta_Blanc{
     width: 36.18px;
 }
@@ -975,8 +933,6 @@ section p{
 .Logo_twitter_Blanc{
     width: 36px;
 }
-
-
 
 /*----------------------footer-----------------*/
 
@@ -1022,7 +978,6 @@ footer{
     margin-right: 10px;
 }
 
-
 .nomprenombas{
     color: white;
     margin-top: 159px;
@@ -1032,7 +987,6 @@ footer{
     font-size: 24px;
     letter-spacing: 5px;
 }
-
 
 .textedefin{
     color: white;
@@ -1052,8 +1006,6 @@ footer span{ /* les liens de footer*/
     font-family: Gotham;
     font-size: 1em;
 }/* de base 16    16/16 */
-
-
 
 .follower{
     position: absolute;

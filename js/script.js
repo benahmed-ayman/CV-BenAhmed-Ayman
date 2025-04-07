@@ -28,14 +28,14 @@ document.querySelector(".logoaccesibility").addEventListener("click", function (
 
 /*-----------------------------animation curseur---------------------------*/
 
-
+/*
     const follower = document.getElementById("follower");
 
     document.addEventListener("mousemove", (event) => {
-    const x = event.clientX-500;
+    const x = event.clientX-700;
     const y = event.clientY-690;
 
     follower.style.transform = `translate(${x}px, ${y}px)`;
 });
-
+*/
 
