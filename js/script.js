@@ -39,3 +39,23 @@ document.querySelector(".logoaccesibility").addEventListener("click", function (
 });
 */
 
+
+const audio = document.querySelector(".monAudio")
+
+
+document.querySelector(".logoaccesibility").addEventListener("click", function () {
+    audio.play()
+});
+
+document.querySelector(".my_formulaire_top").addEventListener("click", function () {
+    audio.play()
+});
+
+document.querySelector(".formulairebas").addEventListener("click", function () {
+    audio.play()
+});
+
+document.querySelector(".exit").addEventListener("click", function () {
+    audio.play()
+});
+
