@@ -512,7 +512,21 @@ img{
     height: 821px;
 }
 
-@media screen and (max-width: 600px){ /*plus petit que 600*/
+@media screen and (max-width: 600px){ /*plus petit que 600                verssion tel*/
+
+    .section_my_competances p{
+        margin-right: 187px;
+    }
+
+    .mon_porfolio{
+
+        font-size: 16px!important;
+        text-align: center!important;
+        margin-right: 10%!important;
+        margin-left: 10%!important;
+
+    }
+
     .first_section{
         background-image: url("/img/image_of_top_coupe_jpeg.jpg");
         background-position: right center; /* Positionne l'image à droite */
@@ -546,6 +560,8 @@ img{
     header{
         height: 60px;
     }
+
+
 
 }
 
@@ -675,12 +691,17 @@ h1 span:nth-of-type(2){  /* ayman du h1*/
     margin-left: 0px;
 }
 
+b{
+    font-weight: bolder;
+}
+
 .qualityproduct{
-   font-family: Gotham;
-    font-size: 1em; /* 16/16*/
+   font-family: Metropolis;
+    font-size: 1.25em; /* 20/16*/
     margin-bottom: 24px;
     margin-right: 50px;
-    
+    font-family: "gotham";
+    font-weight: lighter;
 }
 
 
@@ -711,6 +732,7 @@ cite{
 
 .section_my_competances p{
     margin-right: 50px;
+    font-weight: lighter;
 }
 
 .reseau_social p{
@@ -863,6 +885,7 @@ nav{
     background-color: #5F82A9;
     padding: 22px 106px 21px 89px;
     margin-left: 40px;
+    font-weight: 400;
 }
 
 a{
@@ -962,19 +985,19 @@ footer{
 }
 
 .facebookbleubas{
-    width: 24.06px;
+    width: 21px;
     margin-right: 10px;
 }
 
 .twitterbleubas{
-    width: 29px;
+    width: 23px;
     margin-right: 10px;
 
 
 }
 
 .instableubas{
-    width: 26px;
+    width: 21px;
     margin-right: 10px;
 }
 
@@ -991,6 +1014,7 @@ footer{
 .textedefin{
     color: white;
     font-size: 13px;
+    font-weight: lighter;
     margin-bottom: 56px;
     margin-right: 20px;
 }

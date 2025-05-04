@@ -26,18 +26,11 @@ document.querySelector(".logoaccesibility").addEventListener("click", function (
     document.querySelector(".accesibilité").style.visibility = "visible";
 });
 
-/*-----------------------------animation curseur---------------------------*/
+/*-----------------------------mettre le fernier animation ici ---------------------------*/
 
-/*
-    const follower = document.getElementById("follower");
 
-    document.addEventListener("mousemove", (event) => {
-    const x = event.clientX-700;
-    const y = event.clientY-690;
 
-    follower.style.transform = `translate(${x}px, ${y}px)`;
-});
-*/
+/*-----------------------------------------------------------------*/
 
 
 const audio = document.querySelector(".monAudio")
@@ -47,15 +40,4 @@ document.querySelector(".logoaccesibility").addEventListener("click", function (
     audio.play()
 });
 
-document.querySelector(".my_formulaire_top").addEventListener("click", function () {
-    audio.play()
-});
-
-document.querySelector(".formulairebas").addEventListener("click", function () {
-    audio.play()
-});
-
-document.querySelector(".exit").addEventListener("click", function () {
-    audio.play()
-});
 
