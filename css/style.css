@@ -484,7 +484,7 @@ img{
 /*------------------------header-------------------*/
 .first_section{
     display: inline-block;
-    background-image: url("/img/image_of_top_jpeG.jpg");
+    background-image: url("/img/image_of_top_webP.webp");
     background-position: right center;
     background-color: blue;
     background-size: cover;
@@ -495,7 +495,7 @@ img{
 
 .contactez_moi{
     display: inline-block;
-    background-image: url("/img/my_outstretched_arm_jpeg.jpg");
+    background-image: url("/img/my_outstretched_arm_webP.webp");
     background-position: right center;
     background-color: blue;
     background-size: cover;
@@ -505,7 +505,7 @@ img{
 
 .section_my_competances{
     display: inline-block;
-    background-image: url("/img/my_of_profil_Jpeg.jpg");
+    background-image: url("/img/my_of_profil_webP.webp");
     background-position: right center;
     background-color: blue;
     background-size: cover;
@@ -534,6 +534,10 @@ img{
 
 @media screen and (max-width: 600px){
 
+    body .reseau_social {/*------------------------------------------------------------------------------------*/
+        background-color: #0048FF;
+        background-image: none;
+    }
 
 
 
@@ -541,12 +545,11 @@ img{
         margin-right: 187px;
     }
 
-    .mon_porfolio{
-
-        font-size: 16px!important;
-        text-align: center!important;
-        margin-right: 10%!important;
-        margin-left: 10%!important;
+    body .mon_porfolio{
+        font-size: 16px;
+        text-align: center;
+        margin-right: 10%;
+        margin-left: 10%;
 
     }
 
@@ -560,9 +563,6 @@ img{
         background-position: right center; /* Positionne l'image à droite */
     }
 
-    .reseau_social{
-        background-image: none; /* je ne sait pas pourquoi ca ne fonctione pas**************************/
-    }
 
     .surmonparcoure{
         padding-left: 200px;
@@ -620,9 +620,8 @@ img{
         left: 26px;
     }
 
-    .resaux_liste{
-        width: 300px!important;
-
+    body .resaux_liste{
+        width: 300px;
     }
 
 
@@ -651,7 +650,7 @@ img{
     margin-top: 48px;
 }
 
-@media screen and (min-width: 1000px) {  /*plus grand que 500*/
+@media screen and (min-width: 1000px) {
 
     .the_tri_top_links{
         position: absolute;
@@ -665,18 +664,19 @@ img{
         color: black;
     }
 
-    .title{
-        font-size: inherit!important;
-        margin-right: 100px !important;
+    body div div .title{
+        color: olivedrab;
+        font-size: 15px;
+        margin-right: 100px;
     }
 
-    h1{
-        font-size: 5.5625em !important; /*89/16*/
-        margin-right: 324px !important;
+    body h1{
+        font-size: 5.5625em; /*89/16*/
+        margin-right: 324px;
     }
 
-    h2{
-        font-size: 4.388888888888889em !important; /*79/18*/
+    body h2{
+        font-size: 4.388888888888889em; /*79/18*/
     }
 
     .section{
@@ -961,11 +961,11 @@ section p{
 /*-----------------------reseaux sociaux-------------------*/
 
 .reseau_social{
-    background-image: url("/img/bottom_image_jpeG.jpg");
+    background-image: url("/img/bottom_image_webP.webp");
     background-position: right center;
     background-color: white;
     background-size: cover;
-    margin-top: 0px/* je ne sait pas porquoi il prend mm le backround*/;
+    margin-top: 0px/* je ne sait pas pourquoi il prend mm le backround*/;
     display: inline-block;
     width: 100%;
 }
