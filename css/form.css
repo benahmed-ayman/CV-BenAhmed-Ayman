@@ -2,6 +2,11 @@ html{
     margin-left: 25px;
 }
 
+main {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
 span{
     color: #5F82A9;
     font-family: Bebas Neue,Alegreya Sans,sans Serif;
@@ -101,5 +106,7 @@ input:not(:last-of-type) { /* tout les input sauf le dernier*/
 
     min-width: 50%;
 }
+
+
 
 

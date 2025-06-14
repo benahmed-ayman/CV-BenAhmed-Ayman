@@ -3,6 +3,16 @@
    ;
 }
 
+main {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+header{
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
 /*-------------------------------------accesibilité--------------------------------------------------------*/
 .accesibilité{
     visibility: hidden;
@@ -1093,4 +1103,15 @@ footer span{ /* les liens de footer*/
 
 .follower{
     position: absolute;
+}
+
+
+@media screen and (max-width: 600px) {
+    .tri_links_bottom {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-bottom: 50px;
+
+    }
 }
