@@ -1,3 +1,31 @@
+/*@font-face {*/
+/*    font-family: 'BebasNeue-Regular';*/
+/*    src: url('/font/bebasNeue/BebasNeue-Regular.woff2') format('woff2');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'Gotham-Medium';*/
+/*    src: url('/font/Gotham-font-family/Gotham/Gotham-Medium.otf') format('otf');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'HelveticaNeueMedium';*/
+/*    src: url('/font/helvetica/HelveticaNeueMedium.otf') format('otf');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'Metropolis-Medium';*/
+/*    src: url('/font/metropolis/Metropolis-Medium.otf') format('otf');*/
+/*    font-weight: normal;*/
+/*    font-style: normal;*/
+/*}*/
+
 *{
     font-family: Gotham;
    ;
@@ -12,6 +40,7 @@ header{
     max-width: 2000px;
     margin: 0 auto;
 }
+
 
 /*-------------------------------------accesibilité--------------------------------------------------------*/
 .accesibilité{
@@ -697,11 +726,10 @@ img{
     }
 
    .the_tri_top_logo{
-       margin-top: 0px;
        margin-right: 43px;
        position: absolute;
        right: 50px;
-       top: 19px;
+       top: 4px;
    }
 
    .nomprenomhaut{
