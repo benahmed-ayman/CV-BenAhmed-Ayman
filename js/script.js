@@ -1,3 +1,5 @@
+
+
 const liegeatlas_gris = document.querySelector('.liege_atlas_gris');
 const hepl_gris = document.querySelector('.hepl_gris')
 
@@ -25,8 +27,6 @@ hepl_gris.addEventListener('mouseout', () => {
 document.querySelector(".logoaccesibility").addEventListener("click", function () {
     document.querySelector(".accesibilité").style.visibility = "visible";
 });
-
-/*-----------------------------mettre le fernier animation ici ---------------------------*/
 
 
 
