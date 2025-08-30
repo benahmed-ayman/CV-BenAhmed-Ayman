@@ -1,9 +1,8 @@
-/*@font-face {*/
-/*    font-family: 'BebasNeue-Regular';*/
-/*    src: url('/font/bebasNeue/BebasNeue-Regular.woff2') format('woff2');*/
-/*    font-weight: normal;*/
-/*    font-style: normal;*/
-/*}*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*--------------------- encien fonts --------------------------------*/
+
+
 
 /*@font-face {*/
 /*    font-family: 'Gotham-Medium';*/
@@ -25,6 +24,8 @@
 /*    font-weight: normal;*/
 /*    font-style: normal;*/
 /*}*/
+
+
 
 *{
     font-family: Gotham;
@@ -523,7 +524,7 @@ img{
 /*------------------------header-------------------*/
 .first_section{
     display: inline-block;
-    background-image: url("/img/image_of_top_webP.webp");
+    background-image: url("img/image_of_top_webP_new.webp");
     background-position: right center;
     background-color: blue;
     background-size: cover;
